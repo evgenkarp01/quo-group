@@ -1,0 +1,7 @@
+[2018-04-23 10:50:42] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modx.class.php : 697) PHP warning: Invalid argument supplied for foreach()
+[2018-04-23 10:50:42] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modx.class.php : 697) PHP warning: Invalid argument supplied for foreach()
+[2018-04-23 10:53:02] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modx.class.php : 697) PHP warning: Invalid argument supplied for foreach()
+[2018-04-23 10:53:02] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modx.class.php : 697) PHP warning: Invalid argument supplied for foreach()
+[2018-04-23 11:04:06] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/transport/modtransportpackage.class.php : 384) Невозможно открыть файл для чтения: http://modx.s3.amazonaws.com/extras/4d556c62b2b083396d000b9c/formit-4.0.0-pl.transport.zip?revolution_version=Revolution-2.6.3-pl
+[2018-04-23 11:33:56] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-23 11:38:59] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
