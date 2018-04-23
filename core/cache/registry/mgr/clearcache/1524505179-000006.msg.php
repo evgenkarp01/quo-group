@@ -1,6 +1,6 @@
 <?php
 return array (
-  'timestamp' => '2018-04-23 11:39:08',
+  'timestamp' => '2018-04-23 17:39:39',
   'level' => 'INFO',
   'msg' => '-> web: Обновлено успешно!',
   'def' => '',

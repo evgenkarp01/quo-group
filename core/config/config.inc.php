@@ -5,7 +5,7 @@
 $database_type = 'mysql';
 $database_server = 'localhost';
 $database_user = 'laval_root';
-$database_password = '13051987';
+$database_password = 'qwer4321';
 $database_connection_charset = 'utf8';
 $dbase = 'laval_quo';
 $table_prefix = 'ewal_';

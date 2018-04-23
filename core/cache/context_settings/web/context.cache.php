@@ -13,13 +13,16 @@
     'uslugi/' => 7,
     'agentstvo.html' => 8,
     'kejsyi.html' => 9,
-    'blog.html' => 10,
+    'blog/' => 10,
     'kontaktyi.html' => 11,
+    'poisk.html' => 30,
     'uslugi/audit-i-analitiki/' => 12,
     'uslugi/prodvizhenie-sajtov/' => 13,
     'uslugi/razrabotka/' => 14,
     'uslugi/dizajn.html' => 15,
     'uslugi/fotografiya.html' => 16,
+    'blog/post-pervyij.html' => 29,
+    'blog/post-vtoroj.html' => 31,
     'uslugi/audit-i-analitiki/texnicheskij-audit.html' => 17,
     'uslugi/audit-i-analitiki/marketingovyij-audit.html' => 18,
     'uslugi/audit-i-analitiki/poiskovyij-seo-audit.html' => 19,
@@ -48,6 +51,7 @@
       8 => 9,
       9 => 10,
       10 => 11,
+      11 => 30,
     ),
     7 => 
     array (
@@ -56,6 +60,11 @@
       2 => 14,
       3 => 15,
       4 => 16,
+    ),
+    10 => 
+    array (
+      0 => 29,
+      1 => 31,
     ),
     12 => 
     array (
@@ -90,8 +99,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      1 => '1',
       2 => '2',
+      1 => '1',
     ),
     'OnDocFormSave' => 
     array (
@@ -147,8 +156,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      1 => '1',
       7 => '7',
+      1 => '1',
     ),
     'OnSiteRefresh' => 
     array (

@@ -6,7 +6,7 @@
     'type' => 'document',
     'contentType' => 'text/html',
     'pagetitle' => 'Главная',
-    'longtitle' => 'Performance marketing',
+    'longtitle' => '<b>Performance</b> marketing',
     'description' => '',
     'alias' => 'index',
     'link_attributes' => '',
@@ -16,7 +16,8 @@
     'parent' => 0,
     'isfolder' => 1,
     'introtext' => '',
-    'content' => '',
+    'content' => '<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>',
     'richtext' => 1,
     'template' => 1,
     'menuindex' => 0,
@@ -25,7 +26,7 @@
     'createdby' => 1,
     'createdon' => 1524321600,
     'editedby' => 1,
-    'editedon' => 1524333249,
+    'editedon' => 1524508492,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -45,6 +46,14 @@
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
+    'imgIndexTv' => 
+    array (
+      0 => 'imgIndexTv',
+      1 => 'img1.png',
+      2 => 'default',
+      3 => NULL,
+      4 => 'image',
+    ),
     '_content' => '<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -136,15 +145,15 @@
 					
 					<!-- SEARCH FORM -->
 					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == \'Search\') this.value = \'\';" onBlur="if (this.value == \'\') this.value = \'Search\';" />
-						</form>
+					    [[!$simSearch]]
+					    
+						
 					</div><!-- SEARCH FORM -->
 					
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog.html" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
@@ -152,51 +161,7 @@
 		</header>
 		<!-- //HEADER -->
 		<!-- slider -->
-		<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>
+		[[!$slider]]
 		<!-- //slider -->
 		<!-- content -->
 		<section id="about">
@@ -246,11 +211,11 @@
 					<div class="row">
 					
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h2><b>Multi-purpose</b> WordPress Theme</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="Yes I want it">Byu This theme</span></a>
-							<a class="btn" href="javascript:void(0);" >View more templates</a>
+							<h1><b>Performance</b> marketing</h1>
+							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
+							<a class="btn" href="kejsyi.html" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
@@ -651,8 +616,8 @@
 &tplOuter=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>` 
 &tplInner=`@INLINE <ul class="sub-menu">[[+wrapper]]</ul>`
 &tplParentRow=`@INLINE <li [[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
-]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog.html" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
-    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog.html" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
     '[[$header]]' => '<header>
 			
 			<!-- MENU BLOCK -->
@@ -668,65 +633,20 @@
 					
 					<!-- SEARCH FORM -->
 					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == \'Search\') this.value = \'\';" onBlur="if (this.value == \'\') this.value = \'Search\';" />
-						</form>
+					    [[!$simSearch]]
+					    
+						
 					</div><!-- SEARCH FORM -->
 					
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog.html" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
 			</div><!-- //CONTAINER -->
 		</header>',
-    '[[$slider]]' => '<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>',
     '[[$aboutIndex]]' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
 				
 				<!-- CONTAINER -->
@@ -770,11 +690,11 @@
 					<div class="row">
 					
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h2><b>Multi-purpose</b> WordPress Theme</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="Yes I want it">Byu This theme</span></a>
-							<a class="btn" href="javascript:void(0);" >View more templates</a>
+							<h1><b>Performance</b> marketing</h1>
+							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
+							<a class="btn" href="kejsyi.html" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
@@ -1254,9 +1174,9 @@
 					
 					<!-- SEARCH FORM -->
 					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == \'Search\') this.value = \'\';" onBlur="if (this.value == \'\') this.value = \'Search\';" />
-						</form>
+					    [[!$simSearch]]
+					    
+						
 					</div><!-- SEARCH FORM -->
 					
 					<!-- MENU -->
@@ -1289,9 +1209,9 @@
 					
 					<!-- SEARCH FORM -->
 					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == \'Search\') this.value = \'\';" onBlur="if (this.value == \'\') this.value = \'Search\';" />
-						</form>
+					    [[!$simSearch]]
+					    
+						
 					</div><!-- SEARCH FORM -->
 					
 					<!-- MENU -->
@@ -1365,120 +1285,6 @@
           array (
           ),
           'is_stream' => true,
-        ),
-      ),
-      'slider' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 4,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'slider',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 6,
-          'cache_type' => 0,
-          'snippet' => '<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>',
-          'locked' => false,
-          'properties' => NULL,
-          'static' => false,
-          'static_file' => '',
-          'content' => '<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-					</li>
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
         ),
       ),
       'aboutIndex' => 
@@ -1594,21 +1400,22 @@
 					<div class="row">
 					
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h2><b>Multi-purpose</b> WordPress Theme</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="Yes I want it">Byu This theme</span></a>
-							<a class="btn" href="javascript:void(0);" >View more templates</a>
+							<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+							[[*content]]
+							<a class="btn btn-active" href="[[~7]]" ><span data-hover="Перейтиt">Заказать услугу</span></a>
+							<a class="btn" href="[[~9]]" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="assets/site/images/img1.png" alt="" />
+							<img class="ipad_img1" src="[[*imgIndexTv]]" alt="" />
 						</div>
 					</div><!-- //ROW -->
 				</div><!-- //CONTAINER -->
 			</div>',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'static' => false,
           'static_file' => '',
           'content' => '<div class="purpose_block">
@@ -1620,15 +1427,14 @@
 					<div class="row">
 					
 						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h2><b>Multi-purpose</b> WordPress Theme</h2>
-							<p>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="Yes I want it">Byu This theme</span></a>
-							<a class="btn" href="javascript:void(0);" >View more templates</a>
+							<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+							[[*content]]
+							<a class="btn btn-active" href="[[~7]]" ><span data-hover="Перейтиt">Заказать услугу</span></a>
+							<a class="btn" href="[[~9]]" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="assets/site/images/img1.png" alt="" />
+							<img class="ipad_img1" src="[[*imgIndexTv]]" alt="" />
 						</div>
 					</div><!-- //ROW -->
 				</div><!-- //CONTAINER -->
@@ -2157,6 +1963,164 @@
 			</div><!-- //ROW -->
 		</div><!-- //CONTAINER -->
 	</footer>',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'simSearch' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 12,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'simSearch',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 6,
+          'cache_type' => 0,
+          'snippet' => '[[!SimpleSearchForm? &landing=`30` &tpl=`searchTpl`]]
+',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!SimpleSearchForm? &landing=`30` &tpl=`searchTpl`]]
+',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'slider' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 4,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'slider',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 7,
+          'cache_type' => 0,
+          'snippet' => '<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+				    
+				    
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Creative</p>
+							<p class="title2 captionDelay4 FromTop">White</p>
+							<p class="title3 captionDelay6 FromTop">Templates</p>
+							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
+						
+						
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Responsive</p>
+							<p class="title2 captionDelay4 FromLeft">Design</p>
+							<p class="title3 captionDelay2 FromLeft">Theme</p>
+							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);"> Подробнее</a>
+					</li>
+					
+					
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Amazing</p>
+							<p class="title2 captionDelay2 FromBottom">Video</p>
+							<p class="title3 captionDelay3 FromBottom">Background</p>
+							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
+						
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
+					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section>',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+				    
+				    
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Creative</p>
+							<p class="title2 captionDelay4 FromTop">White</p>
+							<p class="title3 captionDelay6 FromTop">Templates</p>
+							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
+						
+						
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Responsive</p>
+							<p class="title2 captionDelay4 FromLeft">Design</p>
+							<p class="title3 captionDelay2 FromLeft">Theme</p>
+							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);"> Подробнее</a>
+					</li>
+					
+					
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Amazing</p>
+							<p class="title2 captionDelay2 FromBottom">Video</p>
+							<p class="title3 captionDelay3 FromBottom">Background</p>
+							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
+						</div>
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
+						
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
+					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section>',
         ),
         'policies' => 
         array (
@@ -3323,9 +3287,307 @@ if (!empty($toPlaceholder)) {
           'is_stream' => true,
         ),
       ),
+      'SimpleSearchForm' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 33,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'SimpleSearchForm',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 4,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * SimpleSearch
+ *
+ * Copyright 2010-11 by Shaun McCormick <shaun+sisea@modx.com>
+ *
+ * This file is part of SimpleSearch, a simple search component for MODx
+ * Revolution. It is loosely based off of AjaxSearch for MODx Evolution by
+ * coroico/kylej, minus the ajax.
+ *
+ * SimpleSearch is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * SimpleSearch is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * SimpleSearch; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
+ * Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package simplesearch
+ */
+/**
+ * Show the search form
+ *
+ * @var modX $modx
+ * @var array $scriptProperties
+ * @package simplesearch
+ */
+require_once $modx->getOption(\'sisea.core_path\',null,$modx->getOption(\'core_path\').\'components/simplesearch/\').\'model/simplesearch/simplesearch.class.php\';
+$search = new SimpleSearch($modx,$scriptProperties);
+
+/* setup default options */
+$scriptProperties = array_merge(array(
+  \'tpl\' => \'SearchForm\',
+  \'method\' => \'get\',
+  \'searchIndex\' => \'search\',
+  \'toPlaceholder\' => false,
+  \'landing\' => $modx->resource->get(\'id\'),
+), $scriptProperties);
+
+if (empty($scriptProperties[\'landing\'])) {
+  $scriptProperties[\'landing\'] = $modx->resource->get(\'id\');
+}
+
+/* if get value already exists, set it as default */
+$searchValue = isset($_REQUEST[$scriptProperties[\'searchIndex\']]) ? $_REQUEST[$scriptProperties[\'searchIndex\']] : \'\';
+$searchValues = explode(\' \', $searchValue);
+array_map(array($modx, \'sanitizeString\'), $searchValues);
+$searchValue = implode(\' \', $searchValues);
+$placeholders = array(
+    \'method\' => $scriptProperties[\'method\'],
+    \'landing\' => $scriptProperties[\'landing\'],
+    \'searchValue\' => strip_tags(str_replace(array(\'[\',\']\',\'"\',"\'"),array(\'&#91;\',\'&#93;\',\'&quot;\',\'&apos;\'),$searchValue)),
+    \'searchIndex\' => $scriptProperties[\'searchIndex\'],
+);
+
+$output = $search->getChunk($scriptProperties[\'tpl\'],$placeholders);
+return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
+          'locked' => false,
+          'properties' => 
+          array (
+            'tpl' => 
+            array (
+              'name' => 'tpl',
+              'desc' => 'sisea.tpl_form_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'SearchForm',
+              'lexicon' => 'sisea:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, который будет использоваться как шаблон для отображения формы поиска.',
+              'area_trans' => '',
+            ),
+            'landing' => 
+            array (
+              'name' => 'landing',
+              'desc' => 'sisea.landing_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'sisea:properties',
+              'area' => '',
+              'desc_trans' => 'Ресурс на котором будет вызов сниппета SimpleSearch отображающий результаты поиска.',
+              'area_trans' => '',
+            ),
+            'searchIndex' => 
+            array (
+              'name' => 'searchIndex',
+              'desc' => 'sisea.searchindex_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'search',
+              'lexicon' => 'sisea:properties',
+              'area' => '',
+              'desc_trans' => 'Имя параметра который будет использоваться для передачи поискового запроса.',
+              'area_trans' => '',
+            ),
+            'method' => 
+            array (
+              'name' => 'method',
+              'desc' => 'sisea.method_desc',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'sisea.get',
+                  'value' => 'get',
+                  'name' => 'get',
+                ),
+                1 => 
+                array (
+                  'text' => 'sisea.post',
+                  'value' => 'post',
+                  'name' => 'post',
+                ),
+              ),
+              'value' => 'get',
+              'lexicon' => 'sisea:properties',
+              'area' => '',
+              'desc_trans' => 'Какой метод будет использован в форме поиска, POST или GET.',
+              'area_trans' => '',
+            ),
+            'toPlaceholder' => 
+            array (
+              'name' => 'toPlaceholder',
+              'desc' => 'sisea.toplaceholder_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'sisea:properties',
+              'area' => '',
+              'desc_trans' => 'Выводить результат работы сниппета непосредственно, или использовать для вывода подстановщик с этим именем.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * SimpleSearch
+ *
+ * Copyright 2010-11 by Shaun McCormick <shaun+sisea@modx.com>
+ *
+ * This file is part of SimpleSearch, a simple search component for MODx
+ * Revolution. It is loosely based off of AjaxSearch for MODx Evolution by
+ * coroico/kylej, minus the ajax.
+ *
+ * SimpleSearch is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * SimpleSearch is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * SimpleSearch; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
+ * Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package simplesearch
+ */
+/**
+ * Show the search form
+ *
+ * @var modX $modx
+ * @var array $scriptProperties
+ * @package simplesearch
+ */
+require_once $modx->getOption(\'sisea.core_path\',null,$modx->getOption(\'core_path\').\'components/simplesearch/\').\'model/simplesearch/simplesearch.class.php\';
+$search = new SimpleSearch($modx,$scriptProperties);
+
+/* setup default options */
+$scriptProperties = array_merge(array(
+  \'tpl\' => \'SearchForm\',
+  \'method\' => \'get\',
+  \'searchIndex\' => \'search\',
+  \'toPlaceholder\' => false,
+  \'landing\' => $modx->resource->get(\'id\'),
+), $scriptProperties);
+
+if (empty($scriptProperties[\'landing\'])) {
+  $scriptProperties[\'landing\'] = $modx->resource->get(\'id\');
+}
+
+/* if get value already exists, set it as default */
+$searchValue = isset($_REQUEST[$scriptProperties[\'searchIndex\']]) ? $_REQUEST[$scriptProperties[\'searchIndex\']] : \'\';
+$searchValues = explode(\' \', $searchValue);
+array_map(array($modx, \'sanitizeString\'), $searchValues);
+$searchValue = implode(\' \', $searchValues);
+$placeholders = array(
+    \'method\' => $scriptProperties[\'method\'],
+    \'landing\' => $scriptProperties[\'landing\'],
+    \'searchValue\' => strip_tags(str_replace(array(\'[\',\']\',\'"\',"\'"),array(\'&#91;\',\'&#93;\',\'&quot;\',\'&apos;\'),$searchValue)),
+    \'searchIndex\' => $scriptProperties[\'searchIndex\'],
+);
+
+$output = $search->getChunk($scriptProperties[\'tpl\'],$placeholders);
+return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
     ),
     'modTemplateVar' => 
     array (
+      'imgIndexTv' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 1,
+          'source' => 2,
+          'property_preprocess' => false,
+          'type' => 'image',
+          'name' => 'imgIndexTv',
+          'caption' => 'Изображение на главной',
+          'description' => '470х510',
+          'editor_type' => 0,
+          'category' => 7,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 0,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'minLength' => '',
+            'maxLength' => '',
+            'regex' => '',
+            'regexText' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 2,
+          'name' => 'images',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+            'basePath' => 
+            array (
+              'name' => 'basePath',
+              'desc' => 'prop_file.basePath_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'assets/site/images/',
+              'lexicon' => 'core:source',
+            ),
+            'baseUrl' => 
+            array (
+              'name' => 'baseUrl',
+              'desc' => 'prop_file.baseUrl_desc',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'assets/site/images/',
+              'lexicon' => 'core:source',
+            ),
+          ),
+          'is_stream' => true,
+        ),
+      ),
     ),
   ),
 );
