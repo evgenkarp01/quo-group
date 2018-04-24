@@ -2038,8 +2038,39 @@ input[type="color"]:focus {
 }
 
 
-
-
+/*ewal edit*/
+#form_about{
+    text-align: center;
+}
+#form_about form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form_about form label{
+    text-align: left;
+    display: block;
+}
+#form_about form input, #form_about form textarea{
+    background: #f1f1f1;
+    border: none;
+}
+#form_about form fieldset input.first{
+    margin-right: 10px;
+}
+#form_about form fieldset input.last{
+    margin-left: 10px;
+}
+#form_about form .seporate{
+    float: left;
+    width: 50%;
+}
+#form_about form fieldset{
+    float: left;
+}
 
 
 
