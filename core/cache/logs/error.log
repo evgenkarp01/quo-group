@@ -368,3 +368,314 @@
 [2018-04-23 18:17:35] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
 [2018-04-23 18:33:43] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/element
 [2018-04-23 18:41:50] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-24 06:41:15] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoobject.class.php : 1452) Error 23000 executing statement:
+INSERT INTO `ewal_session` (`id`, `access`, `data`) VALUES ('8mr11onsto51rtol4on77la002', 1524552075, 'modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"mgr\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}')
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '8mr11onsto51rtol4on77la002' for key 'PRIMARY'
+)
+
+[2018-04-24 08:15:39] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-24 08:54:08] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modx.class.php : 990) `[[+id]]` is not a valid integer and may not be passed to makeUrl()
+[2018-04-24 08:54:08] (ERROR in resource 1 @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 1372) Bad link tag `[[~[[+id]]]]` encountered
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:00:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:01:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:17] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:01:17] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:18] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:01:18] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:19] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:01:19] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:19] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:01:19] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:01:41] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par0ba78bb0326502335f8683fdf331013a_dat0.jpeg
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:01:46] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:02:44] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:02:49] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:02:52] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:02:52] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:03:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:03:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:03:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:03:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:03:02] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par0ba78bb0326502335f8683fdf331013a_dat0.jpeg
+[2018-04-24 09:03:02] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:05:57] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-24 09:05:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par0ba78bb0326502335f8683fdf331013a_dat0.jpeg
+[2018-04-24 09:05:57] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srce3565f322da494636e18cb979598a2c0_pare23411d0821ae56bf50a1f79d182c074_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcfe93a8dd0e553f657605269a9796f484_parfe63e9239bc49e2fae6900079200047d_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb928deed32433bf9e4d65a0ece210da0_par95b375c8da2a9cd7edaa29d52e3cc91b_dat0.png
+[2018-04-24 09:06:00] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:04] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:06:04] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:05] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:06:05] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:07] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src6d80c8719498884f8369528b6113266f_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:06:07] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:07] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:06:07] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:40] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__src55e9567bb73a3e5a3c4c8b7fa6e913be_par4162837c84b289c7c84643215855ea39_dat0.png
+[2018-04-24 09:06:40] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:06:40] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /mnt/sdb1/quo-group/core/cache/phpthumb/quo-group.ru__srcb07c6c9210ba8f62cd3b55d399acf28b_par505a0ce8a21685a7f2c0113893cf7c29_dat0.png
+[2018-04-24 09:06:40] (ERROR @ /mnt/sdb1/quo-group/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2018-04-24 09:29:46] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-24 09:32:29] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-24 09:36:13] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/element
+[2018-04-24 09:41:01] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-24 09:42:39] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/element
+[2018-04-24 09:42:49] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/element
+[2018-04-24 10:09:19] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-24 11:42:29] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:42:29] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:42:50] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:42:50] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:43:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:43:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1' AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` =' at line 1
+[2018-04-24 11:44:38] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:44:38] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1' AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` =' at line 1
+[2018-04-24 11:46:19] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:46:19] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:46:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:46:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:46:37] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:46:37] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:46:59] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:46:59] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 11:47:26] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:47:26] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 11:47:36] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-24 11:47:39] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 1 AND `modResource`.`parent` IN (9,32,33,34) AND `modResource`.`published` = 1' at line 1
+[2018-04-24 11:47:39] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 11:48:01] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 11:48:01] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 11:48:09] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 11:48:34] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv' in 'where clause'
+[2018-04-24 11:48:42] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv' in 'where clause'
+[2018-04-24 11:48:57] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv' in 'where clause'
+[2018-04-24 11:53:17] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 11:53:17] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:54:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 11:54:23] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:54:38] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 11:54:38] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:55:07] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 11:55:07] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 11:55:16] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'TVinoffcasetv.value.value' in 'where clause'
+[2018-04-24 12:24:27] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:24:57] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:25:39] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:26:52] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:27:36] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:29:21] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:30:30] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:33:02] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:37:51] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:37:51] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:39:21] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:39:21] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:40:04] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:40:04] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:40:15] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:40:15] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:41:14] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:42:52] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:47:58] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:48:15] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:50:54] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:51:52] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'modResource.inOffCaseTv' in 'where clause'
+[2018-04-24 12:52:27] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:53:06] (ERROR @ /mnt/sdb1/quo-group/core/components/pdotools/model/pdotools/pdofetch.class.php : 172) [pdoTools] Error 42S22: Unknown column 'inOffCaseTv.value' in 'where clause'
+[2018-04-24 12:53:56] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:53:56] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:54:40] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:54:40] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:54:58] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: "{``TVinoffcasetv`.`value``:`one`}"
+[2018-04-24 12:54:58] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 12:55:17] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: '{``TVinoffcasetv`.`value``:`one`}'
+[2018-04-24 12:55:17] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
+[2018-04-24 13:23:30] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource

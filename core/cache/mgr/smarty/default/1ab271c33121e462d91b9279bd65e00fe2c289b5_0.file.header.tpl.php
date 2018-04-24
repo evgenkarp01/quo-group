@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-04-23 10:52:20
+/* Smarty version 3.1.31, created on 2018-04-24 06:39:26
   from "/mnt/sdb1/quo-group/manager/templates/default/header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5addbae4e27ec4_65184556',
+  'unifunc' => 'content_5aded11ec68854_92494947',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1ab271c33121e462d91b9279bd65e00fe2c289b5' => 
     array (
       0 => '/mnt/sdb1/quo-group/manager/templates/default/header.tpl',
-      1 => 1524468032,
+      1 => 1524551568,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5addbae4e27ec4_65184556 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aded11ec68854_92494947 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $_smarty_tpl->tpl_vars['_config']->value['manager_direction'];?>

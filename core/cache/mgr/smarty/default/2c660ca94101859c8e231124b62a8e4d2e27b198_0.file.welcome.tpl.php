@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-04-23 10:52:20
+/* Smarty version 3.1.31, created on 2018-04-24 06:39:26
   from "/mnt/sdb1/quo-group/manager/templates/default/welcome.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5addbae4e39131_70713519',
+  'unifunc' => 'content_5aded11ed0eb95_68293251',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2c660ca94101859c8e231124b62a8e4d2e27b198' => 
     array (
       0 => '/mnt/sdb1/quo-group/manager/templates/default/welcome.tpl',
-      1 => 1524467965,
+      1 => 1524551568,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5addbae4e39131_70713519 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5aded11ed0eb95_68293251 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="modx-panel-welcome-div"></div>
 

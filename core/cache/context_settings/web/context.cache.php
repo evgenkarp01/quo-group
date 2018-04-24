@@ -12,7 +12,7 @@
     'polzovatelskoe-soglashenie.html' => 6,
     'uslugi/' => 7,
     'agentstvo.html' => 8,
-    'kejsyi.html' => 9,
+    'kejsyi/' => 9,
     'blog/' => 10,
     'kontaktyi.html' => 11,
     'poisk.html' => 30,
@@ -21,6 +21,9 @@
     'uslugi/razrabotka/' => 14,
     'uslugi/dizajn.html' => 15,
     'uslugi/fotografiya.html' => 16,
+    'kejsyi/kejs-pervyij.html' => 32,
+    'kejsyi/kejs-vtoroj.html' => 33,
+    'kejsyi/kejs-tretij.html' => 34,
     'blog/post-pervyij.html' => 29,
     'blog/post-vtoroj.html' => 31,
     'uslugi/audit-i-analitiki/texnicheskij-audit.html' => 17,
@@ -61,6 +64,12 @@
       3 => 15,
       4 => 16,
     ),
+    9 => 
+    array (
+      0 => 32,
+      1 => 33,
+      2 => 34,
+    ),
     10 => 
     array (
       0 => 29,
@@ -99,8 +108,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      2 => '2',
       1 => '1',
+      2 => '2',
     ),
     'OnDocFormSave' => 
     array (
@@ -156,8 +165,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      7 => '7',
       1 => '1',
+      7 => '7',
     ),
     'OnSiteRefresh' => 
     array (

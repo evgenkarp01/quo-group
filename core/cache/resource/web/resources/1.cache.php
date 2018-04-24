@@ -153,7 +153,7 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
@@ -167,39 +167,24 @@
 		<section id="about">
 			<!-- SERVICES -->
 			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Easy</b> Customize</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Modern</b> Design</p>
-								<span>Quality and unique design that meets all the requirements and trends of modern web design.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Responsive</b> Design</p>
-								<span>Design that will be equally beautifully displayed on all your devices, tablet, smartphone or computer.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Free</b> Updates & Support</p>
-								<span>Hour and great support template. You can always ask a question and we will help you.</span>
-							</a>
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>
+	<!-- CONTAINER -->
+	<div class="container">
+	
+		<!-- ROW -->
+		<div class="row">
+		    [[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`4`
+	&tpl=`serviceTpl`
+    &includeTVs=`inOffServiceTv`
+	&depth=`1`
+	&parents=`7`
+	&tvFilters=`inOffServiceTv==1`
+]]
+		</div><!-- //ROW -->
+	</div><!-- //CONTAINER -->
+</div>
 			<!-- //SERVICES -->
 			<!-- content index -->
 			<div class="purpose_block">
@@ -215,7 +200,7 @@
 							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="kejsyi.html" >наши кейсы</a>
+							<a class="btn" href="kejsyi/" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
@@ -616,8 +601,8 @@
 &tplOuter=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>` 
 &tplInner=`@INLINE <ul class="sub-menu">[[+wrapper]]</ul>`
 &tplParentRow=`@INLINE <li [[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
-]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
-    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
     '[[$header]]' => '<header>
 			
 			<!-- MENU BLOCK -->
@@ -641,46 +626,41 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi.html" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul class="sub-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul class="sub-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
 			</div><!-- //CONTAINER -->
 		</header>',
+    '[[$service]]' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`4`
+	&tpl=`serviceTpl`
+    &includeTVs=`inOffServiceTv`
+	&depth=`1`
+	&parents=`7`
+	&tvFilters=`inOffServiceTv==1`
+]]',
     '[[$aboutIndex]]' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Easy</b> Customize</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Modern</b> Design</p>
-								<span>Quality and unique design that meets all the requirements and trends of modern web design.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Responsive</b> Design</p>
-								<span>Design that will be equally beautifully displayed on all your devices, tablet, smartphone or computer.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Free</b> Updates & Support</p>
-								<span>Hour and great support template. You can always ask a question and we will help you.</span>
-							</a>
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
+	<!-- CONTAINER -->
+	<div class="container">
+	
+		<!-- ROW -->
+		<div class="row">
+		    [[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`4`
+	&tpl=`serviceTpl`
+    &includeTVs=`inOffServiceTv`
+	&depth=`1`
+	&parents=`7`
+	&tvFilters=`inOffServiceTv==1`
+]]
+		</div><!-- //ROW -->
+	</div><!-- //CONTAINER -->
+</div>',
     '[[$contentIndex]]' => '<div class="purpose_block">
 				
 				<!-- CONTAINER -->
@@ -694,7 +674,7 @@
 							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</p>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="kejsyi.html" >наши кейсы</a>
+							<a class="btn" href="kejsyi/" >наши кейсы</a>
 						</div>
 						
 						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
@@ -940,6 +920,75 @@
 			</div><!-- //ROW -->
 		</div><!-- //CONTAINER -->
 	</footer>',
+    '[[pdoResources?tpl=`sldrDescriptionTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`22`&offset=`0`&depth=`10`&outputSeparator=`
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`0d5844563c69b84ab6bb025377e82d17`&setTotal=`1`]]' => '<li class="slide1" style="background-image:url(/assets/site/images/slider/gth6OEOYY50.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay7 FromLeft">Кейс первый</p>
+		<p class="title2 captionDelay5 FromTop">Кейс первейший</p>
+		<p class="title3 captionDelay3 FromRight">bbbк</p>
+		<p class="title4 captionDelay1 FromBottom">Затестил описание слайда</p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-pervyij.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay1 FromLeft">Кейс второй</p>
+		<p class="title2 captionDelay2 FromTop"></p>
+		<p class="title3 captionDelay3 FromRight"></p>
+		<p class="title4 captionDelay4 FromBottom"></p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-vtoroj.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide2_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay1 FromLeft">Кейс третий</p>
+		<p class="title2 captionDelay2 FromTop"></p>
+		<p class="title3 captionDelay3 FromRight"></p>
+		<p class="title4 captionDelay4 FromBottom"></p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-tretij.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>',
+    '[[pdoResources?tpl=`sldrImgTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`9`&offset=`0`&depth=`10`&outputSeparator=`
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgCaseTv, inOffCaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`f3fbbcf8dbd26c4d22d2d0fdf23e87a4`&setTotal=`1`]]' => '<li><img src="/assets/cache_image/assets/site/images/slider/gth6OEOYY50_1920x1080_28b.jpg" alt="Кейс первейший" /></li>
+<li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="" /></li>
+<li><img src="/assets/cache_image/assets/site/images/slider/slide2_bg_1920x1080_28b.jpg" alt="" /></li>',
+    '[[pdoResources?tpl=`serviceTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`4`&offset=`0`&depth=`1`&outputSeparator=`
+`&toPlaceholder=``&parents=`7`&includeContent=``&includeTVs=`inOffServiceTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffServiceTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`6ac7674fd7ae12c055e48b8e05b06748`&setTotal=`1`]]' => '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+	<a class="services_item" href="http://quo-group.ru/uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >
+		<p><b>Партнерский</b> маркетинг</p>
+		<span>Просто выдумал, какой-то обыкновенный текст про что-то и о чем-то</span>
+	</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+	<a class="services_item" href="http://quo-group.ru/uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >
+		<p>Контекстная реклама</p>
+		<span>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
+	</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+	<a class="services_item" href="http://quo-group.ru/uslugi/fotografiya.html" >
+		<p>Фотография</p>
+		<span>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo., eaque ipsa quae ab illo inventore veritatis&#8230;</span>
+	</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+	<a class="services_item" href="http://quo-group.ru/uslugi/razrabotka/" >
+		<p>Разработка</p>
+		<span>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
+	</a>
+</div>',
   ),
   'sourceCache' => 
   array (
@@ -1300,83 +1349,91 @@
           'category' => 7,
           'cache_type' => 0,
           'snippet' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Easy</b> Customize</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Modern</b> Design</p>
-								<span>Quality and unique design that meets all the requirements and trends of modern web design.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Responsive</b> Design</p>
-								<span>Design that will be equally beautifully displayed on all your devices, tablet, smartphone or computer.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Free</b> Updates & Support</p>
-								<span>Hour and great support template. You can always ask a question and we will help you.</span>
-							</a>
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
+	<!-- CONTAINER -->
+	<div class="container">
+	
+		<!-- ROW -->
+		<div class="row">
+		    [[$service]]
+		</div><!-- //ROW -->
+	</div><!-- //CONTAINER -->
+</div>',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'static' => false,
           'static_file' => '',
           'content' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-				
-					<!-- ROW -->
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Easy</b> Customize</p>
-								<span>Quality and very comfortable design, does not hurt the eyes and pleasant to use.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Modern</b> Design</p>
-								<span>Quality and unique design that meets all the requirements and trends of modern web design.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Responsive</b> Design</p>
-								<span>Design that will be equally beautifully displayed on all your devices, tablet, smartphone or computer.</span>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-							<a class="services_item" href="javascript:void(0);" >
-								<p><b>Free</b> Updates & Support</p>
-								<span>Hour and great support template. You can always ask a question and we will help you.</span>
-							</a>
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
+	<!-- CONTAINER -->
+	<div class="container">
+	
+		<!-- ROW -->
+		<div class="row">
+		    [[$service]]
+		</div><!-- //ROW -->
+	</div><!-- //CONTAINER -->
+</div>',
         ),
         'policies' => 
         array (
         ),
         'source' => 
         array (
+        ),
+      ),
+      'service' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 19,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'service',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 12,
+          'cache_type' => 0,
+          'snippet' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`4`
+	&tpl=`serviceTpl`
+    &includeTVs=`inOffServiceTv`
+	&depth=`1`
+	&parents=`7`
+	&tvFilters=`inOffServiceTv==1`
+]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`4`
+	&tpl=`serviceTpl`
+    &includeTVs=`inOffServiceTv`
+	&depth=`1`
+	&parents=`7`
+	&tvFilters=`inOffServiceTv==1`
+]]',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
         ),
       ),
       'contentIndex' => 
@@ -2019,48 +2076,12 @@
 			<div class="flexslider top_slider">
 				<ul class="slides">
 				    
-				    
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
-						
-						
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);"> Подробнее</a>
-					</li>
-					
-					
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
+					[[!$sldrDescription]]
 				</ul>
 			</div>
 			<div id="carousel">
 				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
+				    [[!$sldrImg]]
 				</ul>
 			</div><!-- //TOP SLIDER -->
 		</section>',
@@ -2076,51 +2097,111 @@
 			<div class="flexslider top_slider">
 				<ul class="slides">
 				    
-				    
-					<li class="slide1">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay2 FromTop">Creative</p>
-							<p class="title2 captionDelay4 FromTop">White</p>
-							<p class="title3 captionDelay6 FromTop">Templates</p>
-							<p class="title4 captionDelay7 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
-						
-						
-					<li class="slide2">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay6 FromLeft">Responsive</p>
-							<p class="title2 captionDelay4 FromLeft">Design</p>
-							<p class="title3 captionDelay2 FromLeft">Theme</p>
-							<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);"> Подробнее</a>
-					</li>
-					
-					
-					<li class="slide3">
-						<div class="flex_caption1">
-							<p class="title1 captionDelay1 FromBottom">Amazing</p>
-							<p class="title2 captionDelay2 FromBottom">Video</p>
-							<p class="title3 captionDelay3 FromBottom">Background</p>
-							<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and the direction that appreciates style, purity and quality of the web site.</p>
-						</div>
-						<a class="slide_btn FromRight" href="javascript:void(0);" >Подробнее</a>
-						
-						<!-- VIDEO BACKGROUND -->
-						<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-						<!-- //VIDEO BACKGROUND -->
-					</li>
+					[[!$sldrDescription]]
 				</ul>
 			</div>
 			<div id="carousel">
 				<ul class="slides">
-					<li><img src="assets/site/images/slider/slide1_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide2_bg.jpg" alt="" /></li>
-					<li><img src="assets/site/images/slider/slide3_bg.jpg" alt="" /></li>
+				    [[!$sldrImg]]
 				</ul>
 			</div><!-- //TOP SLIDER -->
 		</section>',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'sldrDescription' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 17,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'sldrDescription',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 11,
+          'cache_type' => 0,
+          'snippet' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`22`
+	&parents=`9`
+	&tpl=`sldrDescriptionTpl`
+	&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`
+    &tvFilters=`inOffCaseTv==1`
+]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`22`
+	&parents=`9`
+	&tpl=`sldrDescriptionTpl`
+	&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`
+    &tvFilters=`inOffCaseTv==1`
+]]',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'sldrImg' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 16,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'sldrImg',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 11,
+          'cache_type' => 0,
+          'snippet' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`9`
+	&includeTVs=`imgCaseTv, inOffCaseTv`
+	&tpl=`sldrImgTpl`
+	&parents=`9`
+    &tvFilters=`inOffCaseTv==1`
+]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`9`
+	&includeTVs=`imgCaseTv, inOffCaseTv`
+	&tpl=`sldrImgTpl`
+	&parents=`9`
+    &tvFilters=`inOffCaseTv==1`
+]]',
         ),
         'policies' => 
         array (
@@ -3504,6 +3585,1274 @@ $placeholders = array(
 
 $output = $search->getChunk($scriptProperties[\'tpl\'],$placeholders);
 return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'pdoPage' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 27,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'pdoPage',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 2,
+          'cache_type' => 0,
+          'snippet' => '/** @var array $scriptProperties */
+// Default variables
+if (empty($pageVarKey)) {
+    $pageVarKey = \'page\';
+}
+if (empty($pageNavVar)) {
+    $pageNavVar = \'page.nav\';
+}
+if (empty($pageCountVar)) {
+    $pageCountVar = \'pageCount\';
+}
+if (empty($totalVar)) {
+    $totalVar = \'total\';
+}
+if (empty($page)) {
+    $page = 1;
+}
+if (empty($pageLimit)) {
+    $pageLimit = 5;
+} else {
+    $pageLimit = (integer)$pageLimit;
+}
+if (!isset($plPrefix)) {
+    $plPrefix = \'\';
+}
+if (!empty($scriptProperties[\'ajaxMode\'])) {
+    $scriptProperties[\'ajax\'] = 1;
+}
+
+// Convert parameters from getPage if exists
+if (!empty($namespace)) {
+    $plPrefix = $namespace;
+}
+if (!empty($pageNavTpl)) {
+    $scriptProperties[\'tplPage\'] = $pageNavTpl;
+}
+if (!empty($pageNavOuterTpl)) {
+    $scriptProperties[\'tplPageWrapper\'] = $pageNavOuterTpl;
+}
+if (!empty($pageActiveTpl)) {
+    $scriptProperties[\'tplPageActive\'] = $pageActiveTpl;
+}
+if (!empty($pageFirstTpl)) {
+    $scriptProperties[\'tplPageFirst\'] = $pageFirstTpl;
+}
+if (!empty($pagePrevTpl)) {
+    $scriptProperties[\'tplPagePrev\'] = $pagePrevTpl;
+}
+if (!empty($pageNextTpl)) {
+    $scriptProperties[\'tplPageNext\'] = $pageNextTpl;
+}
+if (!empty($pageLastTpl)) {
+    $scriptProperties[\'tplPageLast\'] = $pageLastTpl;
+}
+if (!empty($pageSkipTpl)) {
+    $scriptProperties[\'tplPageSkip\'] = $pageSkipTpl;
+}
+if (!empty($pageNavScheme)) {
+    $scriptProperties[\'scheme\'] = $pageNavScheme;
+}
+if (!empty($cache_expires)) {
+    $scriptProperties[\'cacheTime\'] = $cache_expires;
+}
+//---
+$strictMode = !empty($strictMode);
+
+$isAjax = !empty($scriptProperties[\'ajax\']) && !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+if ($isAjax && !isset($_REQUEST[$pageVarKey])) {
+    return;
+}
+
+/** @var pdoPage $pdoPage */
+$fqn = $modx->getOption(\'pdoPage.class\', null, \'pdotools.pdopage\', true);
+$path = $modx->getOption(\'pdopage_class_path\', null, MODX_CORE_PATH . \'components/pdotools/model/\', true);
+if ($pdoClass = $modx->loadClass($fqn, $path, false, true)) {
+    $pdoPage = new $pdoClass($modx, $scriptProperties);
+} else {
+    return false;
+}
+$pdoPage->pdoTools->addTime(\'pdoTools loaded\');
+
+// Script and styles
+if (!$isAjax && !empty($scriptProperties[\'ajaxMode\'])) {
+    $pdoPage->loadJsCss();
+}
+// Removing of default scripts and styles so they do not overwrote nested snippet parameters
+if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoPage\'))) {
+    $properties = $snippet->get(\'properties\');
+    if ($scriptProperties[\'frontend_js\'] == $properties[\'frontend_js\'][\'value\']) {
+        unset($scriptProperties[\'frontend_js\']);
+    }
+    if ($scriptProperties[\'frontend_css\'] == $properties[\'frontend_css\'][\'value\']) {
+        unset($scriptProperties[\'frontend_css\']);
+    }
+}
+
+// Page
+if (isset($_REQUEST[$pageVarKey]) && $strictMode && (!is_numeric($_REQUEST[$pageVarKey]) || ($_REQUEST[$pageVarKey] <= 1 && !$isAjax))) {
+    return $pdoPage->redirectToFirst($isAjax);
+} elseif (!empty($_REQUEST[$pageVarKey])) {
+    $page = (integer)$_REQUEST[$pageVarKey];
+}
+$scriptProperties[\'page\'] = $page;
+$scriptProperties[\'request\'] = $_REQUEST;
+
+// Limit
+if (isset($_REQUEST[\'limit\'])) {
+    if (is_numeric($_REQUEST[\'limit\']) && abs($_REQUEST[\'limit\']) > 0) {
+        $scriptProperties[\'limit\'] = abs($_REQUEST[\'limit\']);
+    } elseif ($strictMode) {
+        unset($_GET[\'limit\']);
+
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+}
+if (!empty($maxLimit) && !empty($scriptProperties[\'limit\']) && $scriptProperties[\'limit\'] > $maxLimit) {
+    $scriptProperties[\'limit\'] = $maxLimit;
+}
+
+// Offset
+$offset = !empty($scriptProperties[\'offset\']) && $scriptProperties[\'offset\'] > 0
+    ? (int)$scriptProperties[\'offset\']
+    : 0;
+$scriptProperties[\'offset\'] = $page > 1
+    ? $scriptProperties[\'limit\'] * ($page - 1) + $offset
+    : $offset;
+if (!empty($scriptProperties[\'offset\']) && empty($scriptProperties[\'limit\'])) {
+    $scriptProperties[\'limit\'] = 10000000;
+}
+
+$cache = !empty($cache) || (!$modx->user->id && !empty($cacheAnonymous));
+$url = $pdoPage->getBaseUrl();
+$output = $pagination = $total = $pageCount = \'\';
+
+$data = $cache
+    ? $pdoPage->pdoTools->getCache($scriptProperties)
+    : array();
+
+if (empty($data)) {
+    $scriptProperties[\'setTotal\'] = true;
+    $output = $pdoPage->pdoTools->runSnippet($scriptProperties[\'element\'], $scriptProperties);
+    if ($output === false) {
+        return \'\';
+    } elseif (!empty($toPlaceholder)) {
+        $output = $modx->getPlaceholder($toPlaceholder);
+    }
+
+    // Pagination
+    $total = (int)$modx->getPlaceholder($totalVar);
+    $pageCount = !empty($scriptProperties[\'limit\']) && $total > $offset
+        ? ceil(($total - $offset) / $scriptProperties[\'limit\'])
+        : 0;
+
+    // Redirect to start if somebody specified incorrect page
+    if ($page > 1 && $page > $pageCount && $strictMode) {
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+    if (!empty($pageCount) && $pageCount > 1) {
+        $pagination = array(
+            \'first\' => $page > 1 && !empty($tplPageFirst)
+                ? $pdoPage->makePageLink($url, 1, $tplPageFirst)
+                : \'\',
+            \'prev\' => $page > 1 && !empty($tplPagePrev)
+                ? $pdoPage->makePageLink($url, $page - 1, $tplPagePrev)
+                : \'\',
+            \'pages\' => $pageLimit >= 7 && empty($disableModernPagination)
+                ? $pdoPage->buildModernPagination($page, $pageCount, $url)
+                : $pdoPage->buildClassicPagination($page, $pageCount, $url),
+            \'next\' => $page < $pageCount && !empty($tplPageNext)
+                ? $pdoPage->makePageLink($url, $page + 1, $tplPageNext)
+                : \'\',
+            \'last\' => $page < $pageCount && !empty($tplPageLast)
+                ? $pdoPage->makePageLink($url, $pageCount, $tplPageLast)
+                : \'\',
+        );
+
+        if (!empty($pageCount)) {
+            foreach (array(\'first\', \'prev\', \'next\', \'last\') as $v) {
+                $tpl = \'tplPage\' . ucfirst($v) . \'Empty\';
+                if (!empty(${$tpl}) && empty($pagination[$v])) {
+                    $pagination[$v] = $pdoPage->pdoTools->getChunk(${$tpl});
+                }
+            }
+        }
+    } else {
+        $pagination = array(
+            \'first\' => \'\',
+            \'prev\' => \'\',
+            \'pages\' => \'\',
+            \'next\' => \'\',
+            \'last\' => \'\'
+        );
+    }
+
+    $data = array(
+        \'output\' => $output,
+        $pageVarKey => $page,
+        $pageCountVar => $pageCount,
+        $pageNavVar => !empty($tplPageWrapper)
+            ? $pdoPage->pdoTools->getChunk($tplPageWrapper, $pagination)
+            : $pdoPage->pdoTools->parseChunk(\'\', $pagination),
+        $totalVar => $total,
+    );
+    if ($cache) {
+        $pdoPage->pdoTools->setCache($data, $scriptProperties);
+    }
+}
+
+if ($isAjax) {
+    if ($pageNavVar != \'pagination\') {
+        $data[\'pagination\'] = $data[$pageNavVar];
+        unset($data[$pageNavVar]);
+    }
+    if ($pageCountVar != \'pages\') {
+        $data[\'pages\'] = (int)$data[$pageCountVar];
+        unset($data[$pageCountVar]);
+    }
+    if ($pageVarKey != \'page\') {
+        $data[\'page\'] = (int)$data[$pageVarKey];
+        unset($data[$pageVarKey]);
+    }
+    if ($totalVar != \'total\') {
+        $data[\'total\'] = (int)$data[$totalVar];
+        unset($data[$totalVar]);
+    }
+
+    $maxIterations = (integer)$modx->getOption(\'parser_max_iterations\', null, 10);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], false, false, \'[[\', \']]\', array(), $maxIterations);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], true, true, \'[[\', \']]\', array(), $maxIterations);
+
+    @session_write_close();
+    exit(json_encode($data));
+} else {
+    if (!empty($setMeta)) {
+        $canurl = $pdoPage->pdoTools->config[\'scheme\'] !== \'full\'
+            ? $modx->getOption(\'url_scheme\') . rtrim($modx->getOption(\'http_host\'), \'/\') . \'/\' . ltrim($url, \'/\')
+            : $url;
+
+        $modx->regClientStartupHTMLBlock(\'<link rel="canonical" href="\' . $canurl . \'"/>\');
+        if ($data[$pageVarKey] > 1) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="prev" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] - 1) . \'"/>\'
+            );
+        }
+        if ($data[$pageVarKey] < $data[$pageCountVar]) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="next" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] + 1) . \'"/>\'
+            );
+        }
+    }
+
+    $modx->setPlaceholders($data, $plPrefix);
+    if (!empty($toPlaceholder)) {
+        $modx->setPlaceholder($toPlaceholder, $data[\'output\']);
+    } else {
+        return $data[\'output\'];
+    }
+}',
+          'locked' => false,
+          'properties' => 
+          array (
+            'plPrefix' => 
+            array (
+              'name' => 'plPrefix',
+              'desc' => 'pdotools_prop_plPrefix',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Префикс для выставляемых плейсхолдеров, по умолчанию "wf.".',
+              'area_trans' => '',
+            ),
+            'limit' => 
+            array (
+              'name' => 'limit',
+              'desc' => 'pdotools_prop_limit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 10,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ограничение количества результатов выборки. Можно использовать "0".',
+              'area_trans' => '',
+            ),
+            'maxLimit' => 
+            array (
+              'name' => 'maxLimit',
+              'desc' => 'pdotools_prop_maxLimit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 100,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Максимально возможный лимит выборки. Перекрывает лимит, указанный пользователем через url.',
+              'area_trans' => '',
+            ),
+            'offset' => 
+            array (
+              'name' => 'offset',
+              'desc' => 'pdotools_prop_offset',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Пропуск результатов от начала.',
+              'area_trans' => '',
+            ),
+            'page' => 
+            array (
+              'name' => 'page',
+              'desc' => 'pdotools_prop_page',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Номер страницы для вывода. Перекрывается номером, указанным пользователем через url.',
+              'area_trans' => '',
+            ),
+            'pageVarKey' => 
+            array (
+              'name' => 'pageVarKey',
+              'desc' => 'pdotools_prop_pageVarKey',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя переменной для поиска номера страницы в url.',
+              'area_trans' => '',
+            ),
+            'totalVar' => 
+            array (
+              'name' => 'totalVar',
+              'desc' => 'pdotools_prop_totalVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page.total',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для сохранения общего количества результатов.',
+              'area_trans' => '',
+            ),
+            'pageLimit' => 
+            array (
+              'name' => 'pageLimit',
+              'desc' => 'pdotools_prop_pageLimit',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 5,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Количество ссылок на страницы. Если больше или равно 7 - включается продвинутый режим отображения.',
+              'area_trans' => '',
+            ),
+            'element' => 
+            array (
+              'name' => 'element',
+              'desc' => 'pdotools_prop_element',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'pdoResources',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя сниппета для запуска.',
+              'area_trans' => '',
+            ),
+            'pageNavVar' => 
+            array (
+              'name' => 'pageNavVar',
+              'desc' => 'pdotools_prop_pageNavVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'page.nav',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для вывода пагинации.',
+              'area_trans' => '',
+            ),
+            'pageCountVar' => 
+            array (
+              'name' => 'pageCountVar',
+              'desc' => 'pdotools_prop_pageCountVar',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => 'pageCount',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Имя плейсхолдера для вывода количества страниц.',
+              'area_trans' => '',
+            ),
+            'pageLinkScheme' => 
+            array (
+              'name' => 'pageLinkScheme',
+              'desc' => 'pdotools_prop_pageLinkScheme',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Схема генерации ссылки на страницу. Можно использовать плейсхолдеры [[+pageVarKey]] и [[+page]]',
+              'area_trans' => '',
+            ),
+            'tplPage' => 
+            array (
+              'name' => 'tplPage',
+              'desc' => 'pdotools_prop_tplPage',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления обычной ссылки на страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageWrapper' => 
+            array (
+              'name' => 'tplPageWrapper',
+              'desc' => 'pdotools_prop_tplPageWrapper',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления всего блока пагинации, содержит плейсхолдеры страниц.',
+              'area_trans' => '',
+            ),
+            'tplPageActive' => 
+            array (
+              'name' => 'tplPageActive',
+              'desc' => 'pdotools_prop_tplPageActive',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на текущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageFirst' => 
+            array (
+              'name' => 'tplPageFirst',
+              'desc' => 'pdotools_prop_tplPageFirst',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на первую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageLast' => 
+            array (
+              'name' => 'tplPageLast',
+              'desc' => 'pdotools_prop_tplPageLast',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на последнюю страницу.',
+              'area_trans' => '',
+            ),
+            'tplPagePrev' => 
+            array (
+              'name' => 'tplPagePrev',
+              'desc' => 'pdotools_prop_tplPagePrev',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на предыдущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageNext' => 
+            array (
+              'name' => 'tplPageNext',
+              'desc' => 'pdotools_prop_tplPageNext',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления ссылки на следующую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageSkip' => 
+            array (
+              'name' => 'tplPageSkip',
+              'desc' => 'pdotools_prop_tplPageSkip',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="disabled"><span>...</span></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк оформления пропущенных страниц при продвинутом режиме отображения (&pageLimit >= 7).',
+              'area_trans' => '',
+            ),
+            'tplPageFirstEmpty' => 
+            array (
+              'name' => 'tplPageFirstEmpty',
+              'desc' => 'pdotools_prop_tplPageFirstEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на первую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageLastEmpty' => 
+            array (
+              'name' => 'tplPageLastEmpty',
+              'desc' => 'pdotools_prop_tplPageLastEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на последнюю страницу.',
+              'area_trans' => '',
+            ),
+            'tplPagePrevEmpty' => 
+            array (
+              'name' => 'tplPagePrevEmpty',
+              'desc' => 'pdotools_prop_tplPagePrevEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="disabled"><span>&laquo;</span></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на предыдущую страницу.',
+              'area_trans' => '',
+            ),
+            'tplPageNextEmpty' => 
+            array (
+              'name' => 'tplPageNextEmpty',
+              'desc' => 'pdotools_prop_tplPageNextEmpty',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <li class="disabled"><span>&raquo;</span></li>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Чанк, выводящийся при отсутствии ссылки на следующую страницу.',
+              'area_trans' => '',
+            ),
+            'cache' => 
+            array (
+              'name' => 'cache',
+              'desc' => 'pdotools_prop_cache',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Кэширование результатов работы сниппета.',
+              'area_trans' => '',
+            ),
+            'cacheTime' => 
+            array (
+              'name' => 'cacheTime',
+              'desc' => 'pdotools_prop_cacheTime',
+              'type' => 'numberfield',
+              'options' => 
+              array (
+              ),
+              'value' => 3600,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Время актуальности кэша в секундах.',
+              'area_trans' => '',
+            ),
+            'cacheAnonymous' => 
+            array (
+              'name' => 'cacheAnonymous',
+              'desc' => 'pdotools_prop_cacheAnonymous',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Включить кэширование только для неавторизованных посетителей.',
+              'area_trans' => '',
+            ),
+            'toPlaceholder' => 
+            array (
+              'name' => 'toPlaceholder',
+              'desc' => 'pdotools_prop_toPlaceholder',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Если не пусто, сниппет сохранит все данные в плейсхолдер с этим именем, вместо вывода не экран.',
+              'area_trans' => '',
+            ),
+            'ajax' => 
+            array (
+              'name' => 'ajax',
+              'desc' => 'pdotools_prop_ajax',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => false,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Включить поддержку ajax запросов.',
+              'area_trans' => '',
+            ),
+            'ajaxMode' => 
+            array (
+              'name' => 'ajaxMode',
+              'desc' => 'pdotools_prop_ajaxMode',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'None',
+                  'value' => '',
+                  'name' => 'None',
+                ),
+                1 => 
+                array (
+                  'text' => 'Default',
+                  'value' => 'default',
+                  'name' => 'Default',
+                ),
+                2 => 
+                array (
+                  'text' => 'Scroll',
+                  'value' => 'scroll',
+                  'name' => 'Scroll',
+                ),
+                3 => 
+                array (
+                  'text' => 'Button',
+                  'value' => 'button',
+                  'name' => 'Button',
+                ),
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ajax пагинация "из коробки". Доступны 3 режима: "default", "button" и "scroll".',
+              'area_trans' => '',
+            ),
+            'ajaxElemWrapper' => 
+            array (
+              'name' => 'ajaxElemWrapper',
+              'desc' => 'pdotools_prop_ajaxElemWrapper',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента-обёртки с результатами и пагинацией.',
+              'area_trans' => '',
+            ),
+            'ajaxElemRows' => 
+            array (
+              'name' => 'ajaxElemRows',
+              'desc' => 'pdotools_prop_ajaxElemRows',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .rows',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента с результатами.',
+              'area_trans' => '',
+            ),
+            'ajaxElemPagination' => 
+            array (
+              'name' => 'ajaxElemPagination',
+              'desc' => 'pdotools_prop_ajaxElemPagination',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .pagination',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор элемента с пагинацией.',
+              'area_trans' => '',
+            ),
+            'ajaxElemLink' => 
+            array (
+              'name' => 'ajaxElemLink',
+              'desc' => 'pdotools_prop_ajaxElemLink',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .pagination a',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор ссылки на страницу.',
+              'area_trans' => '',
+            ),
+            'ajaxElemMore' => 
+            array (
+              'name' => 'ajaxElemMore',
+              'desc' => 'pdotools_prop_ajaxElemMore',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '#pdopage .btn-more',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'jQuery селектор кнопки загрузки результатов при ajaxMode = button.',
+              'area_trans' => '',
+            ),
+            'ajaxTplMore' => 
+            array (
+              'name' => 'ajaxTplMore',
+              'desc' => 'pdotools_prop_ajaxTplMore',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Шаблон кнопки для загрузки новых результатов при ajaxMode = button. Должен включать селектор, указанный в "ajaxElemMore".',
+              'area_trans' => '',
+            ),
+            'ajaxHistory' => 
+            array (
+              'name' => 'ajaxHistory',
+              'desc' => 'pdotools_prop_ajaxHistory',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'Auto',
+                  'value' => '',
+                  'name' => 'Auto',
+                ),
+                1 => 
+                array (
+                  'text' => 'Enabled',
+                  'value' => 1,
+                  'name' => 'Enabled',
+                ),
+                2 => 
+                array (
+                  'text' => 'Disabled',
+                  'value' => 0,
+                  'name' => 'Disabled',
+                ),
+              ),
+              'value' => '',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Сохранять номер страницы в url при работе в режиме ajax.',
+              'area_trans' => '',
+            ),
+            'frontend_js' => 
+            array (
+              'name' => 'frontend_js',
+              'desc' => 'pdotools_prop_frontend_js',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '[[+assetsUrl]]js/pdopage.min.js',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ссылка на javascript для подключения сниппетом.',
+              'area_trans' => '',
+            ),
+            'frontend_css' => 
+            array (
+              'name' => 'frontend_css',
+              'desc' => 'pdotools_prop_frontend_css',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '[[+assetsUrl]]css/pdopage.min.css',
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Ссылка на css стили оформления для подключения сниппетом.',
+              'area_trans' => '',
+            ),
+            'setMeta' => 
+            array (
+              'name' => 'setMeta',
+              'desc' => 'pdotools_prop_setMeta',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => true,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Регистрация мета-тегов со ссылками на предыдущую и следующую страницу.',
+              'area_trans' => '',
+            ),
+            'strictMode' => 
+            array (
+              'name' => 'strictMode',
+              'desc' => 'pdotools_prop_strictMode',
+              'type' => 'combo-boolean',
+              'options' => 
+              array (
+              ),
+              'value' => true,
+              'lexicon' => 'pdotools:properties',
+              'area' => '',
+              'desc_trans' => 'Строгий режим работы. pdoPage делает редиректы при загрузке несуществующих страниц.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => 'core/components/pdotools/elements/snippets/snippet.pdopage.php',
+          'content' => '/** @var array $scriptProperties */
+// Default variables
+if (empty($pageVarKey)) {
+    $pageVarKey = \'page\';
+}
+if (empty($pageNavVar)) {
+    $pageNavVar = \'page.nav\';
+}
+if (empty($pageCountVar)) {
+    $pageCountVar = \'pageCount\';
+}
+if (empty($totalVar)) {
+    $totalVar = \'total\';
+}
+if (empty($page)) {
+    $page = 1;
+}
+if (empty($pageLimit)) {
+    $pageLimit = 5;
+} else {
+    $pageLimit = (integer)$pageLimit;
+}
+if (!isset($plPrefix)) {
+    $plPrefix = \'\';
+}
+if (!empty($scriptProperties[\'ajaxMode\'])) {
+    $scriptProperties[\'ajax\'] = 1;
+}
+
+// Convert parameters from getPage if exists
+if (!empty($namespace)) {
+    $plPrefix = $namespace;
+}
+if (!empty($pageNavTpl)) {
+    $scriptProperties[\'tplPage\'] = $pageNavTpl;
+}
+if (!empty($pageNavOuterTpl)) {
+    $scriptProperties[\'tplPageWrapper\'] = $pageNavOuterTpl;
+}
+if (!empty($pageActiveTpl)) {
+    $scriptProperties[\'tplPageActive\'] = $pageActiveTpl;
+}
+if (!empty($pageFirstTpl)) {
+    $scriptProperties[\'tplPageFirst\'] = $pageFirstTpl;
+}
+if (!empty($pagePrevTpl)) {
+    $scriptProperties[\'tplPagePrev\'] = $pagePrevTpl;
+}
+if (!empty($pageNextTpl)) {
+    $scriptProperties[\'tplPageNext\'] = $pageNextTpl;
+}
+if (!empty($pageLastTpl)) {
+    $scriptProperties[\'tplPageLast\'] = $pageLastTpl;
+}
+if (!empty($pageSkipTpl)) {
+    $scriptProperties[\'tplPageSkip\'] = $pageSkipTpl;
+}
+if (!empty($pageNavScheme)) {
+    $scriptProperties[\'scheme\'] = $pageNavScheme;
+}
+if (!empty($cache_expires)) {
+    $scriptProperties[\'cacheTime\'] = $cache_expires;
+}
+//---
+$strictMode = !empty($strictMode);
+
+$isAjax = !empty($scriptProperties[\'ajax\']) && !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+if ($isAjax && !isset($_REQUEST[$pageVarKey])) {
+    return;
+}
+
+/** @var pdoPage $pdoPage */
+$fqn = $modx->getOption(\'pdoPage.class\', null, \'pdotools.pdopage\', true);
+$path = $modx->getOption(\'pdopage_class_path\', null, MODX_CORE_PATH . \'components/pdotools/model/\', true);
+if ($pdoClass = $modx->loadClass($fqn, $path, false, true)) {
+    $pdoPage = new $pdoClass($modx, $scriptProperties);
+} else {
+    return false;
+}
+$pdoPage->pdoTools->addTime(\'pdoTools loaded\');
+
+// Script and styles
+if (!$isAjax && !empty($scriptProperties[\'ajaxMode\'])) {
+    $pdoPage->loadJsCss();
+}
+// Removing of default scripts and styles so they do not overwrote nested snippet parameters
+if ($snippet = $modx->getObject(\'modSnippet\', array(\'name\' => \'pdoPage\'))) {
+    $properties = $snippet->get(\'properties\');
+    if ($scriptProperties[\'frontend_js\'] == $properties[\'frontend_js\'][\'value\']) {
+        unset($scriptProperties[\'frontend_js\']);
+    }
+    if ($scriptProperties[\'frontend_css\'] == $properties[\'frontend_css\'][\'value\']) {
+        unset($scriptProperties[\'frontend_css\']);
+    }
+}
+
+// Page
+if (isset($_REQUEST[$pageVarKey]) && $strictMode && (!is_numeric($_REQUEST[$pageVarKey]) || ($_REQUEST[$pageVarKey] <= 1 && !$isAjax))) {
+    return $pdoPage->redirectToFirst($isAjax);
+} elseif (!empty($_REQUEST[$pageVarKey])) {
+    $page = (integer)$_REQUEST[$pageVarKey];
+}
+$scriptProperties[\'page\'] = $page;
+$scriptProperties[\'request\'] = $_REQUEST;
+
+// Limit
+if (isset($_REQUEST[\'limit\'])) {
+    if (is_numeric($_REQUEST[\'limit\']) && abs($_REQUEST[\'limit\']) > 0) {
+        $scriptProperties[\'limit\'] = abs($_REQUEST[\'limit\']);
+    } elseif ($strictMode) {
+        unset($_GET[\'limit\']);
+
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+}
+if (!empty($maxLimit) && !empty($scriptProperties[\'limit\']) && $scriptProperties[\'limit\'] > $maxLimit) {
+    $scriptProperties[\'limit\'] = $maxLimit;
+}
+
+// Offset
+$offset = !empty($scriptProperties[\'offset\']) && $scriptProperties[\'offset\'] > 0
+    ? (int)$scriptProperties[\'offset\']
+    : 0;
+$scriptProperties[\'offset\'] = $page > 1
+    ? $scriptProperties[\'limit\'] * ($page - 1) + $offset
+    : $offset;
+if (!empty($scriptProperties[\'offset\']) && empty($scriptProperties[\'limit\'])) {
+    $scriptProperties[\'limit\'] = 10000000;
+}
+
+$cache = !empty($cache) || (!$modx->user->id && !empty($cacheAnonymous));
+$url = $pdoPage->getBaseUrl();
+$output = $pagination = $total = $pageCount = \'\';
+
+$data = $cache
+    ? $pdoPage->pdoTools->getCache($scriptProperties)
+    : array();
+
+if (empty($data)) {
+    $scriptProperties[\'setTotal\'] = true;
+    $output = $pdoPage->pdoTools->runSnippet($scriptProperties[\'element\'], $scriptProperties);
+    if ($output === false) {
+        return \'\';
+    } elseif (!empty($toPlaceholder)) {
+        $output = $modx->getPlaceholder($toPlaceholder);
+    }
+
+    // Pagination
+    $total = (int)$modx->getPlaceholder($totalVar);
+    $pageCount = !empty($scriptProperties[\'limit\']) && $total > $offset
+        ? ceil(($total - $offset) / $scriptProperties[\'limit\'])
+        : 0;
+
+    // Redirect to start if somebody specified incorrect page
+    if ($page > 1 && $page > $pageCount && $strictMode) {
+        return $pdoPage->redirectToFirst($isAjax);
+    }
+    if (!empty($pageCount) && $pageCount > 1) {
+        $pagination = array(
+            \'first\' => $page > 1 && !empty($tplPageFirst)
+                ? $pdoPage->makePageLink($url, 1, $tplPageFirst)
+                : \'\',
+            \'prev\' => $page > 1 && !empty($tplPagePrev)
+                ? $pdoPage->makePageLink($url, $page - 1, $tplPagePrev)
+                : \'\',
+            \'pages\' => $pageLimit >= 7 && empty($disableModernPagination)
+                ? $pdoPage->buildModernPagination($page, $pageCount, $url)
+                : $pdoPage->buildClassicPagination($page, $pageCount, $url),
+            \'next\' => $page < $pageCount && !empty($tplPageNext)
+                ? $pdoPage->makePageLink($url, $page + 1, $tplPageNext)
+                : \'\',
+            \'last\' => $page < $pageCount && !empty($tplPageLast)
+                ? $pdoPage->makePageLink($url, $pageCount, $tplPageLast)
+                : \'\',
+        );
+
+        if (!empty($pageCount)) {
+            foreach (array(\'first\', \'prev\', \'next\', \'last\') as $v) {
+                $tpl = \'tplPage\' . ucfirst($v) . \'Empty\';
+                if (!empty(${$tpl}) && empty($pagination[$v])) {
+                    $pagination[$v] = $pdoPage->pdoTools->getChunk(${$tpl});
+                }
+            }
+        }
+    } else {
+        $pagination = array(
+            \'first\' => \'\',
+            \'prev\' => \'\',
+            \'pages\' => \'\',
+            \'next\' => \'\',
+            \'last\' => \'\'
+        );
+    }
+
+    $data = array(
+        \'output\' => $output,
+        $pageVarKey => $page,
+        $pageCountVar => $pageCount,
+        $pageNavVar => !empty($tplPageWrapper)
+            ? $pdoPage->pdoTools->getChunk($tplPageWrapper, $pagination)
+            : $pdoPage->pdoTools->parseChunk(\'\', $pagination),
+        $totalVar => $total,
+    );
+    if ($cache) {
+        $pdoPage->pdoTools->setCache($data, $scriptProperties);
+    }
+}
+
+if ($isAjax) {
+    if ($pageNavVar != \'pagination\') {
+        $data[\'pagination\'] = $data[$pageNavVar];
+        unset($data[$pageNavVar]);
+    }
+    if ($pageCountVar != \'pages\') {
+        $data[\'pages\'] = (int)$data[$pageCountVar];
+        unset($data[$pageCountVar]);
+    }
+    if ($pageVarKey != \'page\') {
+        $data[\'page\'] = (int)$data[$pageVarKey];
+        unset($data[$pageVarKey]);
+    }
+    if ($totalVar != \'total\') {
+        $data[\'total\'] = (int)$data[$totalVar];
+        unset($data[$totalVar]);
+    }
+
+    $maxIterations = (integer)$modx->getOption(\'parser_max_iterations\', null, 10);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], false, false, \'[[\', \']]\', array(), $maxIterations);
+    $modx->getParser()->processElementTags(\'\', $data[\'output\'], true, true, \'[[\', \']]\', array(), $maxIterations);
+
+    @session_write_close();
+    exit(json_encode($data));
+} else {
+    if (!empty($setMeta)) {
+        $canurl = $pdoPage->pdoTools->config[\'scheme\'] !== \'full\'
+            ? $modx->getOption(\'url_scheme\') . rtrim($modx->getOption(\'http_host\'), \'/\') . \'/\' . ltrim($url, \'/\')
+            : $url;
+
+        $modx->regClientStartupHTMLBlock(\'<link rel="canonical" href="\' . $canurl . \'"/>\');
+        if ($data[$pageVarKey] > 1) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="prev" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] - 1) . \'"/>\'
+            );
+        }
+        if ($data[$pageVarKey] < $data[$pageCountVar]) {
+            $modx->regClientStartupHTMLBlock(
+                \'<link rel="next" href="\' . $pdoPage->makePageLink($canurl, $data[$pageVarKey] + 1) . \'"/>\'
+            );
+        }
+    }
+
+    $modx->setPlaceholders($data, $plPrefix);
+    if (!empty($toPlaceholder)) {
+        $modx->setPlaceholder($toPlaceholder, $data[\'output\']);
+    } else {
+        return $data[\'output\'];
+    }
+}',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'phpthumbon' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 31,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'phpthumbon',
+          'description' => 'Создание превьюх картинок',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * phpThumbOn
+ * Создание превьюх картинок
+ *
+ * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
+ *
+ * @category images
+ * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
+ * @author Agel_Nash <Agel_Nash@xaker.ru>
+ */
+
+if(empty($modx) || !($modx instanceof modX)) return \'\';
+
+$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
+
+if(!isset($modx->phpThumbOn)){
+    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
+}
+
+if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
+    $modx->phpThumbOn = null;
+}
+return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
+          'locked' => false,
+          'properties' => 
+          array (
+            'input' => 
+            array (
+              'name' => 'input',
+              'desc' => 'phpthumbon.input',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'phpthumbon:properties',
+              'area' => '',
+              'desc_trans' => 'Путь к картинке',
+              'area_trans' => '',
+            ),
+            'options' => 
+            array (
+              'name' => 'options',
+              'desc' => 'phpthumbon.folder',
+              'type' => 'textfield',
+              'options' => 
+              array (
+              ),
+              'value' => '',
+              'lexicon' => 'phpthumbon:properties',
+              'area' => '',
+              'desc_trans' => 'phpthumbon.folder',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * phpThumbOn
+ * Создание превьюх картинок
+ *
+ * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
+ *
+ * @category images
+ * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
+ * @author Agel_Nash <Agel_Nash@xaker.ru>
+ */
+
+if(empty($modx) || !($modx instanceof modX)) return \'\';
+
+$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
+
+if(!isset($modx->phpThumbOn)){
+    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
+}
+
+if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
+    $modx->phpThumbOn = null;
+}
+return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
         ),
         'policies' => 
         array (
