@@ -2061,7 +2061,7 @@ input[type="color"]:focus {
 #form_about form fieldset input.first{
     margin-right: 10px;
 }
-#form_about form fieldset input.last{
+#form_about form fieldset input.last, #form_about form fieldset label.last{
     margin-left: 10px;
 }
 #form_about form .seporate{
@@ -2070,10 +2070,44 @@ input[type="color"]:focus {
 }
 #form_about form fieldset{
     float: left;
+    margin-top: 15px;
 }
-
-
-
+#form_about form button{
+    border: none;
+    background: #e42c2d;
+    height: 70px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+}
+#form_about form .offer{
+    margin-top: 15px;
+}
+.footer_quo{
+    max-width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.footer_quo div{
+    margin-top: 5px;
+}
+.footer_quo .logo_f{
+    text-align: center;
+}
+.footer_quo .logo_f img{
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+}
+.copyright{
+    font-size: 13px;
+    color: #828181;
+    font-weight: 200;
+}
 
 
 

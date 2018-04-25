@@ -24,6 +24,7 @@
     'kejsyi/kejs-pervyij.html' => 32,
     'kejsyi/kejs-vtoroj.html' => 33,
     'kejsyi/kejs-tretij.html' => 34,
+    'kejsyi/kejs-test.html' => 35,
     'blog/post-pervyij.html' => 29,
     'blog/post-vtoroj.html' => 31,
     'uslugi/audit-i-analitiki/texnicheskij-audit.html' => 17,
@@ -69,6 +70,7 @@
       0 => 32,
       1 => 33,
       2 => 34,
+      3 => 35,
     ),
     10 => 
     array (
@@ -108,8 +110,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      1 => '1',
       2 => '2',
+      1 => '1',
     ),
     'OnDocFormSave' => 
     array (
@@ -165,8 +167,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      1 => '1',
       7 => '7',
+      1 => '1',
     ),
     'OnSiteRefresh' => 
     array (

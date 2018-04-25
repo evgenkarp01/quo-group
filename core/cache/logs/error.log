@@ -679,3 +679,36 @@ OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpt
 [2018-04-24 12:55:17] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: '{``TVinoffcasetv`.`value``:`one`}'
 [2018-04-24 12:55:17] (ERROR @ /mnt/sdb1/quo-group/core/xpdo/om/xpdoquery.class.php : 702) Error parsing condition with key 0: 
 [2018-04-24 13:23:30] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-25 19:50:41] (ERROR in resource 11 @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 1372) Bad link tag `[[~35]]` encountered
+[2018-04-25 19:59:15] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-25 19:59:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 19:59:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 19:59:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 19:59:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 19:59:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:05] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:05] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:05] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:05] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:05] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modparser.class.php : 540) Could not find snippet with name Year.
+[2018-04-25 20:01:39] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:02:03] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2018-04-25 20:02:04] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:28] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 131) [migxResourceMediaPath]: resource not found (page id 36).
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:03:32] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-25 20:11:02] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
