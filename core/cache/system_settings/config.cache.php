@@ -112,7 +112,7 @@
   'hidemenu_default' => '1',
   'inline_help' => '1',
   'link_tag_scheme' => '-1',
-  'locale' => '',
+  'locale' => 'ru_RU.UTF8',
   'lock_ttl' => '360',
   'log_level' => '1',
   'log_snippet_not_found' => '1',

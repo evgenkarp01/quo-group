@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-04-24 17:18:21
+/* Smarty version 3.1.31, created on 2018-04-26 12:41:40
   from "/mnt/sdb1/quo-group/manager/templates/default/element/tv/renders/input/image.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5adf66dde92754_69117504',
+  'unifunc' => 'content_5ae1c9045cb014_05588214',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8d18cd1d797661b9536eb6f1bfbeb5a9244f2c3a' => 
     array (
       0 => '/mnt/sdb1/quo-group/manager/templates/default/element/tv/renders/input/image.tpl',
-      1 => 1524504509,
+      1 => 1524551568,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5adf66dde92754_69117504 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ae1c9045cb014_05588214 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_replace')) require_once '/mnt/sdb1/quo-group/core/model/smarty/plugins/modifier.replace.php';
 ?>
 <div id="tv-image-<?php echo $_smarty_tpl->tpl_vars['tv']->value->id;?>

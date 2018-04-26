@@ -110,8 +110,8 @@
     ),
     'OnDocFormPrerender' => 
     array (
-      2 => '2',
       1 => '1',
+      2 => '2',
     ),
     'OnDocFormSave' => 
     array (
@@ -167,8 +167,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      7 => '7',
       1 => '1',
+      7 => '7',
     ),
     'OnSiteRefresh' => 
     array (

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2018-04-24 17:18:21
+/* Smarty version 3.1.31, created on 2018-04-26 12:27:24
   from "/mnt/sdb1/quo-group/manager/templates/default/resource/sections/tvs.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5adf66ddeb6ef1_79973678',
+  'unifunc' => 'content_5ae1c5ac35a864_21766536',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '12fe94a06a90b6e6042a31f371e61a6b2ea6d026' => 
     array (
       0 => '/mnt/sdb1/quo-group/manager/templates/default/resource/sections/tvs.tpl',
-      1 => 1524504509,
+      1 => 1524551568,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5adf66ddeb6ef1_79973678 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ae1c5ac35a864_21766536 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_function_cycle')) require_once '/mnt/sdb1/quo-group/core/model/smarty/plugins/function.cycle.php';
 echo $_smarty_tpl->tpl_vars['OnResourceTVFormPrerender']->value;?>
 

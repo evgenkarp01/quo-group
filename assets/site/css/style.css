@@ -2108,6 +2108,31 @@ input[type="color"]:focus {
     color: #828181;
     font-weight: 200;
 }
+.laval-menu li:first-child{
+    position: relative;
+}
+.laval-menu .laval-menu{
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: -100%;
+}
+.laval-menu .laval-menu:before{
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: -6px;
+    width: 0;
+    height: 0;
+    border-bottom: 6px solid transparent;
+    border-top: 7px solid transparent;
+    border-right: 6px solid #1c1c1c;
+}
+.logo img{
+    max-width: 155px;
+    width: 100%;
+    height: auto;
+}
 
 
 
