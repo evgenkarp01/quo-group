@@ -1016,3 +1016,10 @@ OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpt
 [2018-04-26 13:58:47] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 317) Could not cache resource 2
 [2018-04-26 14:05:31] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 317) Could not cache resource 2
 [2018-04-26 14:07:34] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2018-04-27 06:56:31] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/modcachemanager.class.php : 317) Could not cache resource 2
+[2018-04-27 07:51:42] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/transport/modtransportpackage.class.php : 384) Невозможно открыть файл для чтения: http://modx.s3.amazonaws.com/extras/4d556c3db2b083396d000abe/getresources-1.6.1-pl.transport.zip?revolution_version=Revolution-2.6.3-pl
+[2018-04-27 07:55:17] (ERROR @ /mnt/sdb1/quo-group/core/model/modx/transport/modtransportpackage.class.php : 384) Невозможно открыть файл для чтения: http://modx.s3.amazonaws.com/extras/4d556cc4b2b083396d000de8/taglister-1.1.7-pl.transport.zip?revolution_version=Revolution-2.6.3-pl
+[2018-04-27 07:56:19] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-27 07:56:19] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-27 07:56:19] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.
+[2018-04-27 07:56:19] (ERROR @ /mnt/sdb1/quo-group/core/cache/includes/elements/modsnippet/5.include.cache.php : 69) [migxResourceMediaPath]: docid could not be determined.

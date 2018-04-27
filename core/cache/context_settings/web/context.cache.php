@@ -16,6 +16,7 @@
     'blog/' => 10,
     'kontaktyi.html' => 11,
     'poisk.html' => 30,
+    'poisk-po-tegam.html' => 36,
     'uslugi/audit-i-analitiki/' => 12,
     'uslugi/prodvizhenie-sajtov/' => 13,
     'uslugi/razrabotka/' => 14,
@@ -56,6 +57,7 @@
       9 => 10,
       10 => 11,
       11 => 30,
+      12 => 36,
     ),
     7 => 
     array (

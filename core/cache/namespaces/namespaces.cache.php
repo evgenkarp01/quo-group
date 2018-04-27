@@ -47,6 +47,12 @@
     'path' => '/mnt/sdb1/quo-group/core/components/simplesearch/',
     'assets_path' => '/mnt/sdb1/quo-group/assets/components/simplesearch/',
   ),
+  'taglister' => 
+  array (
+    'name' => 'taglister',
+    'path' => '/mnt/sdb1/quo-group/core/components/taglister/',
+    'assets_path' => '',
+  ),
   'tinymce' => 
   array (
     'name' => 'tinymce',

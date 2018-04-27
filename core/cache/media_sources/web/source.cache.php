@@ -395,9 +395,9 @@
   ),
   17 => 
   array (
-    'basePath' => 'assets/site/images/clients/10/',
+    'basePath' => 'assets/site/images/clients/2/',
     'basePathRelative' => true,
-    'baseUrl' => 'assets/site/images/clients/10/',
+    'baseUrl' => 'assets/site/images/clients/2/',
     'baseUrlRelative' => true,
     'allowedFileTypes' => '',
     'imageExtensions' => 'jpg,jpeg,png,gif,svg',
@@ -489,9 +489,9 @@
   ),
   19 => 
   array (
-    'basePath' => 'assets/site/images/blog/10/',
+    'basePath' => 'assets/site/images/blog/2/',
     'basePathRelative' => true,
-    'baseUrl' => 'assets/site/images/blog/10/',
+    'baseUrl' => 'assets/site/images/blog/2/',
     'baseUrlRelative' => true,
     'allowedFileTypes' => '',
     'imageExtensions' => 'jpg,jpeg,png,gif,svg',
@@ -625,6 +625,53 @@
     'source' => 2,
     'object_class' => 'modTemplateVar',
     'object' => 21,
+    'context_key' => 'web',
+    'source_class_key' => 'sources.modFileMediaSource',
+  ),
+  22 => 
+  array (
+    'basePath' => 'assets/site/images/',
+    'basePathRelative' => true,
+    'baseUrl' => 'assets/site/images/',
+    'baseUrlRelative' => true,
+    'allowedFileTypes' => '',
+    'imageExtensions' => 'jpg,jpeg,png,gif,svg',
+    'thumbnailType' => 'png',
+    'thumbnailQuality' => 90,
+    'skipFiles' => '.svn,.git,_notes,nbproject,.idea,.DS_Store',
+    'id' => NULL,
+    'name' => 'images',
+    'description' => '',
+    'class_key' => 'modFileMediaSource',
+    'properties' => 
+    array (
+      'basePath' => 
+      array (
+        'name' => 'basePath',
+        'desc' => 'prop_file.basePath_desc',
+        'type' => 'textfield',
+        'options' => 
+        array (
+        ),
+        'value' => 'assets/site/images/',
+        'lexicon' => 'core:source',
+      ),
+      'baseUrl' => 
+      array (
+        'name' => 'baseUrl',
+        'desc' => 'prop_file.baseUrl_desc',
+        'type' => 'textfield',
+        'options' => 
+        array (
+        ),
+        'value' => 'assets/site/images/',
+        'lexicon' => 'core:source',
+      ),
+    ),
+    'is_stream' => true,
+    'source' => 2,
+    'object_class' => 'modTemplateVar',
+    'object' => 22,
     'context_key' => 'web',
     'source_class_key' => 'sources.modFileMediaSource',
   ),

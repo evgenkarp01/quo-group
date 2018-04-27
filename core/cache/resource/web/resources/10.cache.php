@@ -15,7 +15,7 @@
     'unpub_date' => 0,
     'parent' => 0,
     'isfolder' => 1,
-    'introtext' => '',
+    'introtext' => 'Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Образ там злых страну составитель предупреждал текстами, если рекламных, свой послушавшись путь. Составитель, раз, гор!',
     'content' => '',
     'richtext' => 1,
     'template' => 2,
@@ -25,7 +25,7 @@
     'createdby' => 1,
     'createdon' => 1524333377,
     'editedby' => 1,
-    'editedon' => 1524507208,
+    'editedon' => 1524818497,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -156,29 +156,23 @@
 				<p></p>
 			</div>
 		</section><!-- //BREADCRUMBS -->
-		<!-- BLOG -->
 		<section id="blog">
-			
-			<!-- CONTAINER -->
-			<div class="container">
-				
-				<!-- ROW -->
-				<div class="row">
-				
-					<!-- BLOG BLOCK -->
-					<div class="blog_block col-lg-9 col-md-9 padbot50">
-						
-					
-						[[!pdoPage?
+	<div class="container">
+		<div class="row">
+			<div class="blog_block col-lg-9 col-md-9 padbot50">
+				[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`1`
-	&includeTVs=`imgBlogTv`
+	&limit=`5`
+	&includeTVs=`imgBlogTv,tags`
 	&tpl=`blogTpl`
 	&depth=`0`
 	&parents=`10`
 	
-	&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
+	&pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
     &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPagePrev=``
@@ -188,93 +182,62 @@
     &tplPageFirstEmpty=``
     &tplPageLastEmpty=``
 ]]
-[[!+page.nav]]
-						
-					</div><!-- //BLOG BLOCK -->
-    					<!-- SIDEBAR -->
-					<div class="sidebar col-lg-3 col-md-3 padbot50">
-						
-						<!-- META WIDGET -->
-						<div class="sidepanel widget_meta">
-							<ul>
-								<li><a href="javascript:void(0);" >Advertising</a></li>
-								<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
-								<li><a href="javascript:void(0);" >Media Projects</a></li>
-								<li><a href="javascript:void(0);" >Small Business</a></li>
-								<li><a href="javascript:void(0);" >Creative</a></li>
-							</ul>
-						</div><!-- //META WIDGET -->
-						
-						
-						<!-- POPULAR POSTS WIDGET -->
-						<div class="sidepanel widget_popular_posts">
-							<h3><b>Popular</b> Posts</h3>
-							
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/1.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 30  |  21:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/2.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 25  |  9:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/3.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Dominic Cooper: I\'m Nothing Like the Real James Bond</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 21  |  13:30</li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- //POPULAR POSTS WIDGET -->
-						
-						<hr>
-						
-						<!-- POPULAR TAGS WIDGET -->
-						<div class="sidepanel widget_tags">
-							<h3><b>Popular</b> Tags</h3>
-							<ul>
-								<li><a href="javascript:void(0);" >Fashion</a></li>
-								<li><a href="javascript:void(0);" >Shop</a></li>
-								<li><a href="javascript:void(0);" >Color</a></li>
-								<li><a href="javascript:void(0);" >Creative Agency</a></li>
-								<li><a href="javascript:void(0);" >Theme</a></li>
-								<li><a href="javascript:void(0);" >Dress</a></li>
-								<li><a href="javascript:void(0);" >Wordpress</a></li>
-							</ul>
-						</div><!-- POPULAR TAGS WIDGET -->
-						
-						<hr>
-						
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<h3><b>About</b> Blog</h3>
-							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
-						</div><!-- //TEXT WIDGET -->
-					</div><!-- //SIDEBAR -->
-					
-					
-					
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //BLOG -->
+[[!+prod.nav]]
+			</div>
+			<!-- SIDEBAR -->
+<div class="sidebar col-lg-3 col-md-3 padbot50">
+	
+	<!-- 
+	<div class="sidepanel widget_meta">
+		<ul>
+			<li><a href="javascript:void(0);" >Advertising</a></li>
+			<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
+			<li><a href="javascript:void(0);" >Media Projects</a></li>
+			<li><a href="javascript:void(0);" >Small Business</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+		</ul>
+	</div>
+	-->
+	
+	<!-- POPULAR POSTS WIDGET -->
+	<div class="sidepanel widget_popular_posts">
+		<h3><b>Популярные</b> посты</h3>
+		[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`3`
+	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`10`
+	&sortby=`RAND()`
+]]
+	</div><!-- //POPULAR POSTS WIDGET -->
+	<hr>
+	<!-- POPULAR TAGS WIDGET -->
+	<div class="sidepanel widget_tags">
+		<h3><b>Облако</b> тегов</h3>
+		<ul>
+		    [[!tagLister? 
+            &tv=`tags` 
+            &target=`36`
+            &limit=`7`
+            &tpl=`tagTpl`
+            ]]
+		</ul>
+	</div><!-- POPULAR TAGS WIDGET -->
+	
+	<hr>
+	
+	<!-- TEXT WIDGET -->
+	<div class="sidepanel widget_text">
+		<h3><b>О нашем</b> блоге</h3>
+		<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Образ там злых страну составитель предупреждал текстами, если рекламных, свой послушавшись путь. Составитель, раз, гор!</p>
+	</div><!-- //TEXT WIDGET -->
+</div><!-- //SIDEBAR -->
+		</div>
+	</div>
+</section>
 		<section id="projects" class="padbot20">
 		
 			<!-- CONTAINER -->
@@ -559,13 +522,16 @@
     '[[$blogList]]' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`1`
-	&includeTVs=`imgBlogTv`
+	&limit=`5`
+	&includeTVs=`imgBlogTv,tags`
 	&tpl=`blogTpl`
 	&depth=`0`
 	&parents=`10`
 	
-	&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
+	&pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
     &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPagePrev=``
@@ -575,108 +541,85 @@
     &tplPageFirstEmpty=``
     &tplPageLastEmpty=``
 ]]
-[[!+page.nav]]',
-    '[[$blogSidebar]]' => '<!-- SIDEBAR -->
-					<div class="sidebar col-lg-3 col-md-3 padbot50">
-						
-						<!-- META WIDGET -->
-						<div class="sidepanel widget_meta">
-							<ul>
-								<li><a href="javascript:void(0);" >Advertising</a></li>
-								<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
-								<li><a href="javascript:void(0);" >Media Projects</a></li>
-								<li><a href="javascript:void(0);" >Small Business</a></li>
-								<li><a href="javascript:void(0);" >Creative</a></li>
-							</ul>
-						</div><!-- //META WIDGET -->
-						
-						
-						<!-- POPULAR POSTS WIDGET -->
-						<div class="sidepanel widget_popular_posts">
-							<h3><b>Popular</b> Posts</h3>
-							
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/1.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 30  |  21:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/2.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 25  |  9:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/3.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Dominic Cooper: I\'m Nothing Like the Real James Bond</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 21  |  13:30</li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- //POPULAR POSTS WIDGET -->
-						
-						<hr>
-						
-						<!-- POPULAR TAGS WIDGET -->
-						<div class="sidepanel widget_tags">
-							<h3><b>Popular</b> Tags</h3>
-							<ul>
-								<li><a href="javascript:void(0);" >Fashion</a></li>
-								<li><a href="javascript:void(0);" >Shop</a></li>
-								<li><a href="javascript:void(0);" >Color</a></li>
-								<li><a href="javascript:void(0);" >Creative Agency</a></li>
-								<li><a href="javascript:void(0);" >Theme</a></li>
-								<li><a href="javascript:void(0);" >Dress</a></li>
-								<li><a href="javascript:void(0);" >Wordpress</a></li>
-							</ul>
-						</div><!-- POPULAR TAGS WIDGET -->
-						
-						<hr>
-						
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<h3><b>About</b> Blog</h3>
-							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
-						</div><!-- //TEXT WIDGET -->
-					</div><!-- //SIDEBAR -->',
-    '[[$blog]]' => '<!-- BLOG -->
-		<section id="blog">
-			
-			<!-- CONTAINER -->
-			<div class="container">
-				
-				<!-- ROW -->
-				<div class="row">
-				
-					<!-- BLOG BLOCK -->
-					<div class="blog_block col-lg-9 col-md-9 padbot50">
-						
-					
-						[[!pdoPage?
+[[!+prod.nav]]',
+    '[[$sidebarList]]' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`1`
+	&limit=`3`
 	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`10`
+	&sortby=`RAND()`
+]]',
+    '[[$blogSidebar]]' => '<!-- SIDEBAR -->
+<div class="sidebar col-lg-3 col-md-3 padbot50">
+	
+	<!-- 
+	<div class="sidepanel widget_meta">
+		<ul>
+			<li><a href="javascript:void(0);" >Advertising</a></li>
+			<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
+			<li><a href="javascript:void(0);" >Media Projects</a></li>
+			<li><a href="javascript:void(0);" >Small Business</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+		</ul>
+	</div>
+	-->
+	
+	<!-- POPULAR POSTS WIDGET -->
+	<div class="sidepanel widget_popular_posts">
+		<h3><b>Популярные</b> посты</h3>
+		[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`3`
+	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`10`
+	&sortby=`RAND()`
+]]
+	</div><!-- //POPULAR POSTS WIDGET -->
+	<hr>
+	<!-- POPULAR TAGS WIDGET -->
+	<div class="sidepanel widget_tags">
+		<h3><b>Облако</b> тегов</h3>
+		<ul>
+		    [[!tagLister? 
+            &tv=`tags` 
+            &target=`36`
+            &limit=`7`
+            &tpl=`tagTpl`
+            ]]
+		</ul>
+	</div><!-- POPULAR TAGS WIDGET -->
+	
+	<hr>
+	
+	<!-- TEXT WIDGET -->
+	<div class="sidepanel widget_text">
+		<h3><b>О нашем</b> блоге</h3>
+		<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Образ там злых страну составитель предупреждал текстами, если рекламных, свой послушавшись путь. Составитель, раз, гор!</p>
+	</div><!-- //TEXT WIDGET -->
+</div><!-- //SIDEBAR -->',
+    '[[$blog]]' => '<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="blog_block col-lg-9 col-md-9 padbot50">
+				[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`5`
+	&includeTVs=`imgBlogTv,tags`
 	&tpl=`blogTpl`
 	&depth=`0`
 	&parents=`10`
 	
-	&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
+	&pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
     &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPagePrev=``
@@ -686,93 +629,62 @@
     &tplPageFirstEmpty=``
     &tplPageLastEmpty=``
 ]]
-[[!+page.nav]]
-						
-					</div><!-- //BLOG BLOCK -->
-    					<!-- SIDEBAR -->
-					<div class="sidebar col-lg-3 col-md-3 padbot50">
-						
-						<!-- META WIDGET -->
-						<div class="sidepanel widget_meta">
-							<ul>
-								<li><a href="javascript:void(0);" >Advertising</a></li>
-								<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
-								<li><a href="javascript:void(0);" >Media Projects</a></li>
-								<li><a href="javascript:void(0);" >Small Business</a></li>
-								<li><a href="javascript:void(0);" >Creative</a></li>
-							</ul>
-						</div><!-- //META WIDGET -->
-						
-						
-						<!-- POPULAR POSTS WIDGET -->
-						<div class="sidepanel widget_popular_posts">
-							<h3><b>Popular</b> Posts</h3>
-							
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/1.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 30  |  21:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/2.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 25  |  9:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/3.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Dominic Cooper: I\'m Nothing Like the Real James Bond</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 21  |  13:30</li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- //POPULAR POSTS WIDGET -->
-						
-						<hr>
-						
-						<!-- POPULAR TAGS WIDGET -->
-						<div class="sidepanel widget_tags">
-							<h3><b>Popular</b> Tags</h3>
-							<ul>
-								<li><a href="javascript:void(0);" >Fashion</a></li>
-								<li><a href="javascript:void(0);" >Shop</a></li>
-								<li><a href="javascript:void(0);" >Color</a></li>
-								<li><a href="javascript:void(0);" >Creative Agency</a></li>
-								<li><a href="javascript:void(0);" >Theme</a></li>
-								<li><a href="javascript:void(0);" >Dress</a></li>
-								<li><a href="javascript:void(0);" >Wordpress</a></li>
-							</ul>
-						</div><!-- POPULAR TAGS WIDGET -->
-						
-						<hr>
-						
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<h3><b>About</b> Blog</h3>
-							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
-						</div><!-- //TEXT WIDGET -->
-					</div><!-- //SIDEBAR -->
-					
-					
-					
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //BLOG -->',
+[[!+prod.nav]]
+			</div>
+			<!-- SIDEBAR -->
+<div class="sidebar col-lg-3 col-md-3 padbot50">
+	
+	<!-- 
+	<div class="sidepanel widget_meta">
+		<ul>
+			<li><a href="javascript:void(0);" >Advertising</a></li>
+			<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
+			<li><a href="javascript:void(0);" >Media Projects</a></li>
+			<li><a href="javascript:void(0);" >Small Business</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+		</ul>
+	</div>
+	-->
+	
+	<!-- POPULAR POSTS WIDGET -->
+	<div class="sidepanel widget_popular_posts">
+		<h3><b>Популярные</b> посты</h3>
+		[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`3`
+	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`10`
+	&sortby=`RAND()`
+]]
+	</div><!-- //POPULAR POSTS WIDGET -->
+	<hr>
+	<!-- POPULAR TAGS WIDGET -->
+	<div class="sidepanel widget_tags">
+		<h3><b>Облако</b> тегов</h3>
+		<ul>
+		    [[!tagLister? 
+            &tv=`tags` 
+            &target=`36`
+            &limit=`7`
+            &tpl=`tagTpl`
+            ]]
+		</ul>
+	</div><!-- POPULAR TAGS WIDGET -->
+	
+	<hr>
+	
+	<!-- TEXT WIDGET -->
+	<div class="sidepanel widget_text">
+		<h3><b>О нашем</b> блоге</h3>
+		<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Образ там злых страну составитель предупреждал текстами, если рекламных, свой послушавшись путь. Составитель, раз, гор!</p>
+	</div><!-- //TEXT WIDGET -->
+</div><!-- //SIDEBAR -->
+		</div>
+	</div>
+</section>',
     '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/10/',
     '[[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]' => '',
     '[[$keyses]]' => '<section id="projects" class="padbot20">
@@ -872,9 +784,9 @@
 		</div><!-- //ROW -->
 	</div><!-- //CONTAINER -->
 </footer>',
-    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/blog/{id}/` &createFolder=`1`]]' => 'assets/site/images/blog/10/',
-    '[[pdoResources?tpl=`blogTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`1`&offset=`0`&depth=`0`&outputSeparator=`
-`&toPlaceholder=``&parents=`10`&includeContent=``&includeTVs=`imgBlogTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=``&tplPageNext=``&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=``&tplPageLastEmpty=``&tplPagePrevEmpty=``&tplPageNextEmpty=``&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`e5a0482dc3231e65d978cb48cf289aa5`&setTotal=`1`]]' => '<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+    '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Поиск',
+    '[[pdoResources?tpl=`blogTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`5`&offset=`0`&depth=`0`&outputSeparator=`
+`&toPlaceholder=``&parents=`10`&includeContent=``&includeTVs=`imgBlogTv,tags`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`tot_prods`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`pg`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`prod.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=``&tplPageNext=``&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=``&tplPageLastEmpty=``&tplPagePrevEmpty=``&tplPageNextEmpty=``&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`1fe8c2eba20b873f0e3de88bcc636293`&setTotal=`1`]]' => '<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
 	<div class="blog_post_img">
 		<img src="/assets/cache_image/noimage_870x500_13e.jpg" alt="Пост второй" />
 		<a class="zoom" href="http://quo-group.ru/blog/post-vtoroj.html" ></a>
@@ -893,9 +805,52 @@
 		<div class="blog_post_content"></div>
 		<a class="read_more_btn" href="http://quo-group.ru/blog/post-vtoroj.html" >Подробнее</a>
 	</div>
+</div>
+<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+	<div class="blog_post_img">
+		<img src="/assets/cache_image/assets/site/images/fix-it-pcs-e-commerce-website-design_870x500_754.png" alt="Пост первый" />
+		<a class="zoom" href="http://quo-group.ru/blog/post-pervyij.html" ></a>
+	</div>
+	<div class="blog_post_descr">
+		<div class="blog_post_date">Апрель 23 | 18:14</div>
+		<a class="blog_post_title" href="http://quo-group.ru/blog/post-pervyij.html" >Пост первый</a>
+		<ul class="blog_post_info">
+		    <!--
+			<li><a href="javascript:void(0);" >Admin</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+			<li><a href="javascript:void(0);" >3 Comments</a></li>
+			-->
+		</ul>
+		<hr>
+		<div class="blog_post_content"> the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.</div>
+		<a class="read_more_btn" href="http://quo-group.ru/blog/post-pervyij.html" >Подробнее</a>
+	</div>
+</div>',
+    '[[pdoResources?tpl=`sidebarListTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`RAND()`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`3`&offset=`0`&depth=`0`&outputSeparator=`
+`&toPlaceholder=``&parents=`10`&includeContent=``&includeTVs=`imgBlogTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`2eed405d50644848afa0940f67afc986`&setTotal=`1`]]' => '<div class="recent_posts_widget clearfix">
+	<div class="post_item_img_widget">
+		<img src="/assets/cache_image/assets/site/images/fix-it-pcs-e-commerce-website-design_870x500_754.png" alt="Пост первый" />
+	</div>
+	<div class="post_item_content_widget">
+		<a class="title" href="http://quo-group.ru/blog/post-pervyij.html" > the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.</a>
+		<ul class="post_item_inf_widget">
+			<li>Апрель 23 | 18:14</li>
+		</ul>
+	</div>
+</div>
+<div class="recent_posts_widget clearfix">
+	<div class="post_item_img_widget">
+		<img src="/assets/cache_image/noimage_870x500_13e.jpg" alt="Пост второй" />
+	</div>
+	<div class="post_item_content_widget">
+		<a class="title" href="http://quo-group.ru/blog/post-vtoroj.html" ></a>
+		<ul class="post_item_inf_widget">
+			<li>Апрель 23 | 18:46</li>
+		</ul>
+	</div>
 </div>',
     '[[pdoResources?tpl=`workTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`9bae80e57f1e62b8141d4b311b3f081f`&setTotal=`1`]]' => '<div class="item">
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`3b7ffbfd8ab2f5803a3a7b51c613ce07`&setTotal=`1`]]' => '<div class="item">
     <div class="work_item">
         <div class="work_img">
             <img src="/assets/site/images/works/1.jpg" alt="Кейс первый" />
@@ -1354,58 +1309,32 @@
           'editor_type' => 0,
           'category' => 8,
           'cache_type' => 0,
-          'snippet' => '<!-- BLOG -->
-		<section id="blog">
-			
-			<!-- CONTAINER -->
-			<div class="container">
-				
-				<!-- ROW -->
-				<div class="row">
-				
-					<!-- BLOG BLOCK -->
-					<div class="blog_block col-lg-9 col-md-9 padbot50">
-						
-					
-						[[$blogList]]
-						
-					</div><!-- //BLOG BLOCK -->
-    					[[$blogSidebar]]
-					
-					
-					
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //BLOG -->',
+          'snippet' => '<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="blog_block col-lg-9 col-md-9 padbot50">
+				[[$blogList]]
+			</div>
+			[[$blogSidebar]]
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<!-- BLOG -->
-		<section id="blog">
-			
-			<!-- CONTAINER -->
-			<div class="container">
-				
-				<!-- ROW -->
-				<div class="row">
-				
-					<!-- BLOG BLOCK -->
-					<div class="blog_block col-lg-9 col-md-9 padbot50">
-						
-					
-						[[$blogList]]
-						
-					</div><!-- //BLOG BLOCK -->
-    					[[$blogSidebar]]
-					
-					
-					
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //BLOG -->',
+          'content' => '<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="blog_block col-lg-9 col-md-9 padbot50">
+				[[$blogList]]
+			</div>
+			[[$blogSidebar]]
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
@@ -1459,13 +1388,16 @@
           'snippet' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`1`
-	&includeTVs=`imgBlogTv`
+	&limit=`5`
+	&includeTVs=`imgBlogTv,tags`
 	&tpl=`blogTpl`
 	&depth=`0`
 	&parents=`[[*id]]`
 	
-	&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
+	&pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
     &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPagePrev=``
@@ -1475,7 +1407,7 @@
     &tplPageFirstEmpty=``
     &tplPageLastEmpty=``
 ]]
-[[!+page.nav]]',
+[[!+prod.nav]]',
           'locked' => false,
           'properties' => 
           array (
@@ -1485,13 +1417,16 @@
           'content' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`1`
-	&includeTVs=`imgBlogTv`
+	&limit=`5`
+	&includeTVs=`imgBlogTv,tags`
 	&tpl=`blogTpl`
 	&depth=`0`
 	&parents=`[[*id]]`
 	
-	&tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
+	&pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul>`
     &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
     &tplPagePrev=``
@@ -1501,7 +1436,7 @@
     &tplPageFirstEmpty=``
     &tplPageLastEmpty=``
 ]]
-[[!+page.nav]]',
+[[!+prod.nav]]',
         ),
         'policies' => 
         array (
@@ -1553,165 +1488,141 @@
           'category' => 8,
           'cache_type' => 0,
           'snippet' => '<!-- SIDEBAR -->
-					<div class="sidebar col-lg-3 col-md-3 padbot50">
-						
-						<!-- META WIDGET -->
-						<div class="sidepanel widget_meta">
-							<ul>
-								<li><a href="javascript:void(0);" >Advertising</a></li>
-								<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
-								<li><a href="javascript:void(0);" >Media Projects</a></li>
-								<li><a href="javascript:void(0);" >Small Business</a></li>
-								<li><a href="javascript:void(0);" >Creative</a></li>
-							</ul>
-						</div><!-- //META WIDGET -->
-						
-						
-						<!-- POPULAR POSTS WIDGET -->
-						<div class="sidepanel widget_popular_posts">
-							<h3><b>Popular</b> Posts</h3>
-							
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/1.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 30  |  21:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/2.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 25  |  9:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/3.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Dominic Cooper: I\'m Nothing Like the Real James Bond</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 21  |  13:30</li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- //POPULAR POSTS WIDGET -->
-						
-						<hr>
-						
-						<!-- POPULAR TAGS WIDGET -->
-						<div class="sidepanel widget_tags">
-							<h3><b>Popular</b> Tags</h3>
-							<ul>
-								<li><a href="javascript:void(0);" >Fashion</a></li>
-								<li><a href="javascript:void(0);" >Shop</a></li>
-								<li><a href="javascript:void(0);" >Color</a></li>
-								<li><a href="javascript:void(0);" >Creative Agency</a></li>
-								<li><a href="javascript:void(0);" >Theme</a></li>
-								<li><a href="javascript:void(0);" >Dress</a></li>
-								<li><a href="javascript:void(0);" >Wordpress</a></li>
-							</ul>
-						</div><!-- POPULAR TAGS WIDGET -->
-						
-						<hr>
-						
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<h3><b>About</b> Blog</h3>
-							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
-						</div><!-- //TEXT WIDGET -->
-					</div><!-- //SIDEBAR -->',
+<div class="sidebar col-lg-3 col-md-3 padbot50">
+	
+	<!-- 
+	<div class="sidepanel widget_meta">
+		<ul>
+			<li><a href="javascript:void(0);" >Advertising</a></li>
+			<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
+			<li><a href="javascript:void(0);" >Media Projects</a></li>
+			<li><a href="javascript:void(0);" >Small Business</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+		</ul>
+	</div>
+	-->
+	
+	<!-- POPULAR POSTS WIDGET -->
+	<div class="sidepanel widget_popular_posts">
+		<h3><b>Популярные</b> посты</h3>
+		[[$sidebarList]]
+	</div><!-- //POPULAR POSTS WIDGET -->
+	<hr>
+	<!-- POPULAR TAGS WIDGET -->
+	<div class="sidepanel widget_tags">
+		<h3><b>Облако</b> тегов</h3>
+		<ul>
+		    [[!tagLister? 
+            &tv=`tags` 
+            &target=`36`
+            &limit=`7`
+            &tpl=`tagTpl`
+            ]]
+		</ul>
+	</div><!-- POPULAR TAGS WIDGET -->
+	
+	<hr>
+	
+	<!-- TEXT WIDGET -->
+	<div class="sidepanel widget_text">
+		<h3><b>О нашем</b> блоге</h3>
+		<p>[[*introtext:default=`[[*description]]`]]</p>
+	</div><!-- //TEXT WIDGET -->
+</div><!-- //SIDEBAR -->',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'static' => false,
           'static_file' => '',
           'content' => '<!-- SIDEBAR -->
-					<div class="sidebar col-lg-3 col-md-3 padbot50">
-						
-						<!-- META WIDGET -->
-						<div class="sidepanel widget_meta">
-							<ul>
-								<li><a href="javascript:void(0);" >Advertising</a></li>
-								<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
-								<li><a href="javascript:void(0);" >Media Projects</a></li>
-								<li><a href="javascript:void(0);" >Small Business</a></li>
-								<li><a href="javascript:void(0);" >Creative</a></li>
-							</ul>
-						</div><!-- //META WIDGET -->
-						
-						
-						<!-- POPULAR POSTS WIDGET -->
-						<div class="sidepanel widget_popular_posts">
-							<h3><b>Popular</b> Posts</h3>
-							
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/1.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 30  |  21:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/2.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 25  |  9:30</li>
-									</ul>
-								</div>
-							</div>
-							<div class="recent_posts_widget clearfix">
-								<div class="post_item_img_widget">
-									<img src="images/blog/3.jpg" alt="" />
-								</div>
-								<div class="post_item_content_widget">
-									<a class="title" href="blog.html" >Dominic Cooper: I\'m Nothing Like the Real James Bond</a>
-									<ul class="post_item_inf_widget">
-										<li>JANUARY 21  |  13:30</li>
-									</ul>
-								</div>
-							</div>
-						</div><!-- //POPULAR POSTS WIDGET -->
-						
-						<hr>
-						
-						<!-- POPULAR TAGS WIDGET -->
-						<div class="sidepanel widget_tags">
-							<h3><b>Popular</b> Tags</h3>
-							<ul>
-								<li><a href="javascript:void(0);" >Fashion</a></li>
-								<li><a href="javascript:void(0);" >Shop</a></li>
-								<li><a href="javascript:void(0);" >Color</a></li>
-								<li><a href="javascript:void(0);" >Creative Agency</a></li>
-								<li><a href="javascript:void(0);" >Theme</a></li>
-								<li><a href="javascript:void(0);" >Dress</a></li>
-								<li><a href="javascript:void(0);" >Wordpress</a></li>
-							</ul>
-						</div><!-- POPULAR TAGS WIDGET -->
-						
-						<hr>
-						
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<h3><b>About</b> Blog</h3>
-							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
-						</div><!-- //TEXT WIDGET -->
-					</div><!-- //SIDEBAR -->',
+<div class="sidebar col-lg-3 col-md-3 padbot50">
+	
+	<!-- 
+	<div class="sidepanel widget_meta">
+		<ul>
+			<li><a href="javascript:void(0);" >Advertising</a></li>
+			<li><a href="javascript:void(0);" >Fashion & Trends</a></li>
+			<li><a href="javascript:void(0);" >Media Projects</a></li>
+			<li><a href="javascript:void(0);" >Small Business</a></li>
+			<li><a href="javascript:void(0);" >Creative</a></li>
+		</ul>
+	</div>
+	-->
+	
+	<!-- POPULAR POSTS WIDGET -->
+	<div class="sidepanel widget_popular_posts">
+		<h3><b>Популярные</b> посты</h3>
+		[[$sidebarList]]
+	</div><!-- //POPULAR POSTS WIDGET -->
+	<hr>
+	<!-- POPULAR TAGS WIDGET -->
+	<div class="sidepanel widget_tags">
+		<h3><b>Облако</b> тегов</h3>
+		<ul>
+		    [[!tagLister? 
+            &tv=`tags` 
+            &target=`36`
+            &limit=`7`
+            &tpl=`tagTpl`
+            ]]
+		</ul>
+	</div><!-- POPULAR TAGS WIDGET -->
+	
+	<hr>
+	
+	<!-- TEXT WIDGET -->
+	<div class="sidepanel widget_text">
+		<h3><b>О нашем</b> блоге</h3>
+		<p>[[*introtext:default=`[[*description]]`]]</p>
+	</div><!-- //TEXT WIDGET -->
+</div><!-- //SIDEBAR -->',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'sidebarList' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 31,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'sidebarList',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 8,
+          'cache_type' => 0,
+          'snippet' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`3`
+	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`[[*id]]`
+	&sortby=`RAND()`
+]]',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[!pdoPage?
+    &element=`pdoResources`
+    &showHidden=`1`
+	&limit=`3`
+	&includeTVs=`imgBlogTv`
+	&tpl=`sidebarListTpl`
+	&depth=`0`
+	&parents=`[[*id]]`
+	&sortby=`RAND()`
+]]',
         ),
         'policies' => 
         array (
@@ -5980,6 +5891,850 @@ if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
     $modx->phpThumbOn = null;
 }
 return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'tagLister' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 38,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'tagLister',
+          'description' => 'A simple tag listing snippet that grabs tags from a TV value.',
+          'editor_type' => 0,
+          'category' => 14,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * tagLister
+ *
+ * Copyright 2010 by Shaun McCormick <shaun@modxcms.com>
+ *
+ * This file is part of tagLister, a simple tag listing snippet for MODx
+ * Revolution.
+ *
+ * tagLister is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * tagLister is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * tagLister; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package taglister
+ */
+/**
+ * tagLister snippet
+ *
+ * @var modX $modx
+ * @var TagLister $tagLister
+ * @var array $scriptProperties
+ *
+ * @package taglister
+ */
+$tagLister = $modx->getService(\'taglister\',\'TagLister\',$modx->getOption(\'taglister.core_path\',null,$modx->getOption(\'core_path\').\'components/taglister/\').\'model/taglister/\',$scriptProperties);
+if (!($tagLister instanceof TagLister)) return \'\';
+$modx->lexicon->load(\'taglister:default\');
+
+/* setup default properties */
+$tpl = $modx->getOption(\'tpl\',$scriptProperties,\'tag\');
+$tv = $modx->getOption(\'tv\',$scriptProperties,\'tags\');
+$tvDelimiter = $modx->getOption(\'tvDelimiter\',$scriptProperties,\',\');
+$target = $modx->getOption(\'target\',$scriptProperties,1);
+$tagVar = $modx->getOption(\'tagVar\',$scriptProperties,\'tag\');
+$tagKeyVar = $modx->getOption(\'tagKeyVar\',$scriptProperties,\'key\');
+$limit = $modx->getOption(\'limit\',$scriptProperties,10);
+$sortBy = strtolower($modx->getOption(\'sortBy\',$scriptProperties,\'count\'));
+$sortDir = strtoupper($modx->getOption(\'sortDir\',$scriptProperties,\'ASC\'));
+$cls = $modx->getOption(\'cls\',$scriptProperties,\'\');
+$altCls = $modx->getOption(\'altCls\',$scriptProperties,\'\');
+$firstCls = $modx->getOption(\'firstCls\',$scriptProperties,\'\');
+$lastCls = $modx->getOption(\'lastCls\',$scriptProperties,\'\');
+$activeCls = $modx->getOption(\'activeCls\',$scriptProperties,\'\');
+$activeTag = isset($_REQUEST[$tagVar]) ? $modx->stripTags(urldecode($_REQUEST[$tagVar])) : \'\';
+$activeKey = isset($_REQUEST[$tagKeyVar]) ? $modx->stripTags(urldecode($_REQUEST[$tagKeyVar])) : \'\';
+$all = $modx->getOption(\'all\',$scriptProperties,false);
+$toLower = $modx->getOption(\'toLower\',$scriptProperties,false);
+$weights = $modx->getOption(\'weights\',$scriptProperties,0);
+$weightCls = $modx->getOption(\'weightCls\',$scriptProperties,\'\');
+$useTagFurl = $modx->getOption(\'useTagFurl\',$scriptProperties,false);
+$furlKey = $modx->getOption(\'furlKey\',$scriptProperties,\'tags\');
+
+
+/* get TV values */
+$c = $modx->newQuery(\'modTemplateVarResource\');
+$c->innerJoin(\'modTemplateVar\',\'TemplateVar\');
+$c->innerJoin(\'modResource\',\'Resource\');
+$c->leftJoin(\'modUser\',\'CreatedBy\',\'CreatedBy.id = Resource.createdby\');
+$c->leftJoin(\'modUser\',\'PublishedBy\',\'PublishedBy.id = Resource.publishedby\');
+$c->leftJoin(\'modUser\',\'EditedBy\',\'EditedBy.id = Resource.editedby\');
+$tvPk = (int)$tv;
+if (!empty($tvPk)) {
+    $c->where(array(\'TemplateVar.id\' => $tvPk));
+} else {
+    $c->where(array(\'TemplateVar.name\' => $tv));
+}
+/* parents support */
+$parents = isset($parents) ? explode(\',\', $parents) : array();
+if (!empty($parents)) {
+    $depth = isset($depth) ? (integer) $depth : 10;
+    $children = array();
+    foreach ($parents as $parent) {
+        $kids = $modx->getChildIds($parent,$depth);
+        if (!empty($kids)) {
+            $children = array_merge($children,$kids);
+        }
+    }
+    if (!empty($children)) {
+        $children = array_unique($children);
+        $parents = array_merge($parents,$children);
+    }
+    $parents = array_unique($parents);
+    if (!empty($parents)) {
+        $c->where(array(
+            \'Resource.id:IN\' => $parents,
+        ));
+    }
+}
+if (!$modx->getOption(\'includeDeleted\',$scriptProperties,false)) {
+    $c->where(array(\'Resource.deleted\' => 0));
+}
+if (!$modx->getOption(\'includeUnpublished\',$scriptProperties,false)) {
+    $c->where(array(\'Resource.published\' => 1));
+}
+/* json where support */
+$where = $modx->getOption(\'where\',$scriptProperties,\'\');
+if (!empty($where)) {
+    $where = $modx->fromJSON($where);
+    if (is_array($where) && !empty($where)) {
+        $c->where($where);
+    }
+}
+if ($sortBy == \'publishedon\') {
+    $c->sortby(\'Resource.publishedon\',$sortDir);
+} else if (in_array($sortBy,array(\'rand\',\'random\',\'rand()\'))) {
+    $c->sortby(\'RAND()\',\'\');
+}
+$tags = $modx->getCollection(\'modTemplateVarResource\',$c);
+
+/* parse TV values */
+$output = array();
+$tagList = array();
+$encoding = $modx->getOption(\'modx_charset\',$scriptProperties,\'UTF-8\');
+$useMultibyte = $modx->getOption(\'use_multibyte\',$scriptProperties,false);
+/** @var modTemplateVarResource $tag */
+foreach ($tags as $tag) {
+   $v = $tag->get(\'value\');
+   $vs = explode($tvDelimiter,$v);
+   foreach ($vs as $key) {
+      $key = trim($key);
+      if (empty($key)) continue;
+      if ($toLower) { /* allow for case-insensitive filtering */
+          $key = $useMultibyte ? mb_strtolower($key,$encoding) : strtolower($key);
+      }
+      /* increment tag count */
+      if (empty($tagList[$key])) {
+         $tagList[$key] = 1;
+      } else { $tagList[$key]++; }
+   }
+}
+
+/* sort */
+switch ($sortBy.\'-\'.$sortDir) {
+    case \'publishedon-DESC\': case \'publishedon-ASC\': break;
+    case \'tag-ASC\': ksort($tagList); break;
+    case \'tag-DESC\': krsort($tagList); break;
+    case \'count-DESC\': asort($tagList); break;
+    case \'count-ASC\': default: arsort($tagList); break;
+    case \'rand-ASC\': case \'random-ASC\': case \'rand()-asc\': $tagList = $tagLister->ashuffle($tagList); break;
+}
+
+/* iterate */
+$totalTags = 0;
+$i = $all ? 1 : 0;
+foreach ($tagList as $tag => $count) {
+    if ($i >= $limit) break;
+    $tagCls = $cls.((!empty($altCls) && $i % 2)? \' \'.$altCls : \'\');
+    if (!empty($firstCls) && $i == 0) $tagCls .= \' \'.$firstCls;
+    if (!empty($lastCls) && ($i+1 >= $limit || $i == $count)) $tagCls .= \' \'.$lastCls;
+    /* if tag is currently being viewed, mark as active */
+    if (!empty($activeCls) && $tag==$activeTag && (empty($activeKey) || $tv==$activeKey)) $tagCls .= \' \'.$activeCls;
+    /* handle weighting for css */
+    if (!empty($weights) && !empty($weightCls)) $tagCls .= \' \'.$weightCls.ceil($count / (max($tagList) / $weights));
+
+    $tagArray = array(
+        \'tag\' => $tag,
+        \'tagVar\' => $tagVar,
+        \'tagKey\' => $tv,
+        \'tagKeyVar\' => $tagKeyVar,
+        \'count\' => $count,
+        \'target\' => $target,
+        \'cls\' => $tagCls,
+        \'idx\' => $i,
+    );
+    $tagParams = array();
+    if (empty($useTagFurl)) {
+        $tagParams[$tagVar] = $tag;
+        $tagParams[$tagKeyVar] = $tv;
+    }
+    $tagArray[\'url\'] = $modx->makeUrl($target,\'\',$tagParams);
+    if (!empty($useTagFurl)) {
+        $tagArray[\'url\'] = rtrim($tagArray[\'url\'],\'/\').\'/\'.(!empty($furlKey) ? $furlKey : $tv).\'/\'.urlencode($tag);
+    }
+
+    $output[] = $tagLister->getChunk($tpl,$tagArray);
+    $totalTags += $count;
+    $i++;
+}
+
+if ($all) {
+    $allTpl = $modx->getOption(\'allTpl\',$scriptProperties,\'all\');
+    $allChunk = $tagLister->getChunk($allTpl,array(
+        \'tag\' => !empty($scriptProperties[\'allText\']) ? $scriptProperties[\'allText\'] : $modx->lexicon(\'all_tags\'),
+        \'tagVar\' => $tagVar,
+        \'tagKey\' => $tv,
+        \'tagKeyVar\' => $tagKeyVar,
+        \'count\' => $totalTags,
+        \'target\' => $target,
+        \'cls\' => $cls,
+        \'url\' => $useTagFurl ? $modx->makeUrl($target).$tv.\'/\' : $modx->makeUrl($target,\'\',array(
+            $tagVar => \'\',
+            $tagKeyVar => $tv,
+        )),
+    ));
+    if ($modx->getOption(\'allPosition\',$scriptProperties,\'B\') == \'T\') {
+        array_unshift($output,$allChunk);
+    } else {
+        array_push($output,$allChunk);
+    }
+}
+
+/* output */
+$outputSeparator = $modx->getOption(\'outputSeparator\',$scriptProperties,"\\n");
+$output = implode($outputSeparator,$output);
+$toPlaceholder = $modx->getOption(\'toPlaceholder\',$scriptProperties,false);
+if (!empty($toPlaceholder)) {
+    $modx->setPlaceholder($toPlaceholder,$output);
+    return \'\';
+}
+return $output;',
+          'locked' => false,
+          'properties' => 
+          array (
+            'tpl' => 
+            array (
+              'name' => 'tpl',
+              'desc' => 'prop_taglister.tpl_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tag',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Name of a Chunk that will be used for each result.',
+              'area_trans' => '',
+            ),
+            'tv' => 
+            array (
+              'name' => 'tv',
+              'desc' => 'prop_taglister.tv_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tags',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The name or ID of the TV being used for tags.',
+              'area_trans' => '',
+            ),
+            'tvDelimiter' => 
+            array (
+              'name' => 'tvDelimiter',
+              'desc' => 'prop_taglister.tvdelimiter_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => ',',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The delimiter being used between tags in the TV. Usually a comma, sometimes a space.',
+              'area_trans' => '',
+            ),
+            'target' => 
+            array (
+              'name' => 'target',
+              'desc' => 'prop_taglister.target_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The target Resource to point the tag links to. Will default to the current Resource.',
+              'area_trans' => '',
+            ),
+            'tagVar' => 
+            array (
+              'name' => 'tagVar',
+              'desc' => 'prop_taglister.tagvar_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tag',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The REQUEST var of the tag value. Used in the links generated for each tag result.',
+              'area_trans' => '',
+            ),
+            'tagKeyVar' => 
+            array (
+              'name' => 'tagKeyVar',
+              'desc' => 'prop_taglister.tagkeyvar_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'key',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The REQUEST var of the tv name. Used in the links generated for each tag result',
+              'area_trans' => '',
+            ),
+            'sortBy' => 
+            array (
+              'name' => 'sortBy',
+              'desc' => 'prop_taglister.sortby_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'count',
+                  'value' => 'count',
+                  'name' => 'Count',
+                ),
+                1 => 
+                array (
+                  'text' => 'tag',
+                  'value' => 'tag',
+                  'name' => 'Tag',
+                ),
+              ),
+              'value' => 'count',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Field to sort by. Defaults to count. Can be either tag or count.',
+              'area_trans' => '',
+            ),
+            'sortDir' => 
+            array (
+              'name' => 'sortDir',
+              'desc' => 'prop_taglister.sortdir_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'ascending',
+                  'vaue' => 'ASC',
+                  'name' => 'Ascending',
+                ),
+                1 => 
+                array (
+                  'text' => 'descending',
+                  'value' => 'DESC',
+                  'name' => 'Descending',
+                ),
+              ),
+              'value' => 'ASC',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Order which to sort by. Defaults to ASC.',
+              'area_trans' => '',
+            ),
+            'limit' => 
+            array (
+              'name' => 'limit',
+              'desc' => 'prop_taglister.limit_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 10,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Limits the number of resources returned. Defaults to 10.',
+              'area_trans' => '',
+            ),
+            'parents' => 
+            array (
+              'name' => 'parents',
+              'desc' => 'prop_taglister.parents_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. Comma-delimited list of ids serving as parents.',
+              'area_trans' => '',
+            ),
+            'depth' => 
+            array (
+              'name' => 'depth',
+              'desc' => 'prop_taglister.depth_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 10,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Integer value indicating depth to search for resources from each parent. Defaults to 10.',
+              'area_trans' => '',
+            ),
+            'includeDeleted' => 
+            array (
+              'name' => 'includeDeleted',
+              'desc' => 'prop_taglister.includedeleted_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Include tags from deleted Resources in the results.',
+              'area_trans' => '',
+            ),
+            'includeUnpublished' => 
+            array (
+              'name' => 'includeUnpublished',
+              'desc' => 'prop_taglister.includeunpublished_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Include tags from unpublished Resources in the results.',
+              'area_trans' => '',
+            ),
+            'where' => 
+            array (
+              'name' => 'where',
+              'desc' => 'prop_taglister.where_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'A criteria in JSON format for filtering results.',
+              'area_trans' => '',
+            ),
+            'cls' => 
+            array (
+              'name' => 'cls',
+              'desc' => 'prop_taglister.cls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tl-tag',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to add to each row. If empty will ignore.',
+              'area_trans' => '',
+            ),
+            'altCls' => 
+            array (
+              'name' => 'altCls',
+              'desc' => 'prop_taglister.altcls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tl-tag-alt',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to add to each alternate row. If empty will ignore.',
+              'area_trans' => '',
+            ),
+            'firstCls' => 
+            array (
+              'name' => 'firstCls',
+              'desc' => 'prop_taglister.firstcls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to add to the first row. If empty will ignore.',
+              'area_trans' => '',
+            ),
+            'lastCls' => 
+            array (
+              'name' => 'lastCls',
+              'desc' => 'prop_taglister.lastcls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to add to the last row. If empty will ignore.',
+              'area_trans' => '',
+            ),
+            'toLower' => 
+            array (
+              'name' => 'toLower',
+              'desc' => 'prop_taglister.tolower_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. If set to true, will allow case-insensitive tag listing.',
+              'area_trans' => '',
+            ),
+            'all' => 
+            array (
+              'name' => 'all',
+              'desc' => 'prop_taglister.all_desc',
+              'type' => 'combo-boolean',
+              'options' => '',
+              'value' => false,
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Whether or not to show an "All Tags" result.',
+              'area_trans' => '',
+            ),
+            'allTpl' => 
+            array (
+              'name' => 'allTpl',
+              'desc' => 'prop_taglister.alltpl_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'all',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The chunk for showing the all tags link.',
+              'area_trans' => '',
+            ),
+            'allPosition' => 
+            array (
+              'name' => 'allPosition',
+              'desc' => 'prop_taglister.allposition_desc',
+              'type' => 'list',
+              'options' => 
+              array (
+                0 => 
+                array (
+                  'text' => 'bottom',
+                  'value' => 'B',
+                  'name' => 'Bottom',
+                ),
+                1 => 
+                array (
+                  'text' => 'top',
+                  'value' => 'T',
+                  'name' => 'Top',
+                ),
+              ),
+              'value' => 'B',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Whether or not the all tags link should be at the top (T) or bottom (B) of the results.',
+              'area_trans' => '',
+            ),
+            'allText' => 
+            array (
+              'name' => 'allText',
+              'desc' => 'prop_taglister.alltext_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The text for the all tags link. Defaults to "All Tags".',
+              'area_trans' => '',
+            ),
+            'toPlaceholder' => 
+            array (
+              'name' => 'toPlaceholder',
+              'desc' => 'prop_taglister.toplaceholder_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'If set, will set the output of this snippet to this placeholder rather than output it.',
+              'area_trans' => '',
+            ),
+            'outputSeparator' => 
+            array (
+              'name' => 'outputSeparator',
+              'desc' => 'prop_taglister.outputseparator_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '
+',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'The separator for output for each result.',
+              'area_trans' => '',
+            ),
+            'activeCls' => 
+            array (
+              'name' => 'activeCls',
+              'desc' => 'prop_taglister.activecls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to add to the active tag. If empty will ignore.',
+              'area_trans' => '',
+            ),
+            'weightCls' => 
+            array (
+              'name' => 'weightCls',
+              'desc' => 'prop_taglister.weightcls_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => 'tl-tag-weight',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. A CSS class to prefix to each weight. If empty will disable weights.',
+              'area_trans' => '',
+            ),
+            'weights' => 
+            array (
+              'name' => 'weights',
+              'desc' => 'prop_taglister.weights_desc',
+              'type' => 'textfield',
+              'options' => '',
+              'value' => '5',
+              'lexicon' => 'taglister:properties',
+              'area' => '',
+              'desc_trans' => 'Optional. The number of weights to calculate. 0 or empty will disable weights.',
+              'area_trans' => '',
+            ),
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * tagLister
+ *
+ * Copyright 2010 by Shaun McCormick <shaun@modxcms.com>
+ *
+ * This file is part of tagLister, a simple tag listing snippet for MODx
+ * Revolution.
+ *
+ * tagLister is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation; either version 2 of the License, or (at your option) any later
+ * version.
+ *
+ * tagLister is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * tagLister; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package taglister
+ */
+/**
+ * tagLister snippet
+ *
+ * @var modX $modx
+ * @var TagLister $tagLister
+ * @var array $scriptProperties
+ *
+ * @package taglister
+ */
+$tagLister = $modx->getService(\'taglister\',\'TagLister\',$modx->getOption(\'taglister.core_path\',null,$modx->getOption(\'core_path\').\'components/taglister/\').\'model/taglister/\',$scriptProperties);
+if (!($tagLister instanceof TagLister)) return \'\';
+$modx->lexicon->load(\'taglister:default\');
+
+/* setup default properties */
+$tpl = $modx->getOption(\'tpl\',$scriptProperties,\'tag\');
+$tv = $modx->getOption(\'tv\',$scriptProperties,\'tags\');
+$tvDelimiter = $modx->getOption(\'tvDelimiter\',$scriptProperties,\',\');
+$target = $modx->getOption(\'target\',$scriptProperties,1);
+$tagVar = $modx->getOption(\'tagVar\',$scriptProperties,\'tag\');
+$tagKeyVar = $modx->getOption(\'tagKeyVar\',$scriptProperties,\'key\');
+$limit = $modx->getOption(\'limit\',$scriptProperties,10);
+$sortBy = strtolower($modx->getOption(\'sortBy\',$scriptProperties,\'count\'));
+$sortDir = strtoupper($modx->getOption(\'sortDir\',$scriptProperties,\'ASC\'));
+$cls = $modx->getOption(\'cls\',$scriptProperties,\'\');
+$altCls = $modx->getOption(\'altCls\',$scriptProperties,\'\');
+$firstCls = $modx->getOption(\'firstCls\',$scriptProperties,\'\');
+$lastCls = $modx->getOption(\'lastCls\',$scriptProperties,\'\');
+$activeCls = $modx->getOption(\'activeCls\',$scriptProperties,\'\');
+$activeTag = isset($_REQUEST[$tagVar]) ? $modx->stripTags(urldecode($_REQUEST[$tagVar])) : \'\';
+$activeKey = isset($_REQUEST[$tagKeyVar]) ? $modx->stripTags(urldecode($_REQUEST[$tagKeyVar])) : \'\';
+$all = $modx->getOption(\'all\',$scriptProperties,false);
+$toLower = $modx->getOption(\'toLower\',$scriptProperties,false);
+$weights = $modx->getOption(\'weights\',$scriptProperties,0);
+$weightCls = $modx->getOption(\'weightCls\',$scriptProperties,\'\');
+$useTagFurl = $modx->getOption(\'useTagFurl\',$scriptProperties,false);
+$furlKey = $modx->getOption(\'furlKey\',$scriptProperties,\'tags\');
+
+
+/* get TV values */
+$c = $modx->newQuery(\'modTemplateVarResource\');
+$c->innerJoin(\'modTemplateVar\',\'TemplateVar\');
+$c->innerJoin(\'modResource\',\'Resource\');
+$c->leftJoin(\'modUser\',\'CreatedBy\',\'CreatedBy.id = Resource.createdby\');
+$c->leftJoin(\'modUser\',\'PublishedBy\',\'PublishedBy.id = Resource.publishedby\');
+$c->leftJoin(\'modUser\',\'EditedBy\',\'EditedBy.id = Resource.editedby\');
+$tvPk = (int)$tv;
+if (!empty($tvPk)) {
+    $c->where(array(\'TemplateVar.id\' => $tvPk));
+} else {
+    $c->where(array(\'TemplateVar.name\' => $tv));
+}
+/* parents support */
+$parents = isset($parents) ? explode(\',\', $parents) : array();
+if (!empty($parents)) {
+    $depth = isset($depth) ? (integer) $depth : 10;
+    $children = array();
+    foreach ($parents as $parent) {
+        $kids = $modx->getChildIds($parent,$depth);
+        if (!empty($kids)) {
+            $children = array_merge($children,$kids);
+        }
+    }
+    if (!empty($children)) {
+        $children = array_unique($children);
+        $parents = array_merge($parents,$children);
+    }
+    $parents = array_unique($parents);
+    if (!empty($parents)) {
+        $c->where(array(
+            \'Resource.id:IN\' => $parents,
+        ));
+    }
+}
+if (!$modx->getOption(\'includeDeleted\',$scriptProperties,false)) {
+    $c->where(array(\'Resource.deleted\' => 0));
+}
+if (!$modx->getOption(\'includeUnpublished\',$scriptProperties,false)) {
+    $c->where(array(\'Resource.published\' => 1));
+}
+/* json where support */
+$where = $modx->getOption(\'where\',$scriptProperties,\'\');
+if (!empty($where)) {
+    $where = $modx->fromJSON($where);
+    if (is_array($where) && !empty($where)) {
+        $c->where($where);
+    }
+}
+if ($sortBy == \'publishedon\') {
+    $c->sortby(\'Resource.publishedon\',$sortDir);
+} else if (in_array($sortBy,array(\'rand\',\'random\',\'rand()\'))) {
+    $c->sortby(\'RAND()\',\'\');
+}
+$tags = $modx->getCollection(\'modTemplateVarResource\',$c);
+
+/* parse TV values */
+$output = array();
+$tagList = array();
+$encoding = $modx->getOption(\'modx_charset\',$scriptProperties,\'UTF-8\');
+$useMultibyte = $modx->getOption(\'use_multibyte\',$scriptProperties,false);
+/** @var modTemplateVarResource $tag */
+foreach ($tags as $tag) {
+   $v = $tag->get(\'value\');
+   $vs = explode($tvDelimiter,$v);
+   foreach ($vs as $key) {
+      $key = trim($key);
+      if (empty($key)) continue;
+      if ($toLower) { /* allow for case-insensitive filtering */
+          $key = $useMultibyte ? mb_strtolower($key,$encoding) : strtolower($key);
+      }
+      /* increment tag count */
+      if (empty($tagList[$key])) {
+         $tagList[$key] = 1;
+      } else { $tagList[$key]++; }
+   }
+}
+
+/* sort */
+switch ($sortBy.\'-\'.$sortDir) {
+    case \'publishedon-DESC\': case \'publishedon-ASC\': break;
+    case \'tag-ASC\': ksort($tagList); break;
+    case \'tag-DESC\': krsort($tagList); break;
+    case \'count-DESC\': asort($tagList); break;
+    case \'count-ASC\': default: arsort($tagList); break;
+    case \'rand-ASC\': case \'random-ASC\': case \'rand()-asc\': $tagList = $tagLister->ashuffle($tagList); break;
+}
+
+/* iterate */
+$totalTags = 0;
+$i = $all ? 1 : 0;
+foreach ($tagList as $tag => $count) {
+    if ($i >= $limit) break;
+    $tagCls = $cls.((!empty($altCls) && $i % 2)? \' \'.$altCls : \'\');
+    if (!empty($firstCls) && $i == 0) $tagCls .= \' \'.$firstCls;
+    if (!empty($lastCls) && ($i+1 >= $limit || $i == $count)) $tagCls .= \' \'.$lastCls;
+    /* if tag is currently being viewed, mark as active */
+    if (!empty($activeCls) && $tag==$activeTag && (empty($activeKey) || $tv==$activeKey)) $tagCls .= \' \'.$activeCls;
+    /* handle weighting for css */
+    if (!empty($weights) && !empty($weightCls)) $tagCls .= \' \'.$weightCls.ceil($count / (max($tagList) / $weights));
+
+    $tagArray = array(
+        \'tag\' => $tag,
+        \'tagVar\' => $tagVar,
+        \'tagKey\' => $tv,
+        \'tagKeyVar\' => $tagKeyVar,
+        \'count\' => $count,
+        \'target\' => $target,
+        \'cls\' => $tagCls,
+        \'idx\' => $i,
+    );
+    $tagParams = array();
+    if (empty($useTagFurl)) {
+        $tagParams[$tagVar] = $tag;
+        $tagParams[$tagKeyVar] = $tv;
+    }
+    $tagArray[\'url\'] = $modx->makeUrl($target,\'\',$tagParams);
+    if (!empty($useTagFurl)) {
+        $tagArray[\'url\'] = rtrim($tagArray[\'url\'],\'/\').\'/\'.(!empty($furlKey) ? $furlKey : $tv).\'/\'.urlencode($tag);
+    }
+
+    $output[] = $tagLister->getChunk($tpl,$tagArray);
+    $totalTags += $count;
+    $i++;
+}
+
+if ($all) {
+    $allTpl = $modx->getOption(\'allTpl\',$scriptProperties,\'all\');
+    $allChunk = $tagLister->getChunk($allTpl,array(
+        \'tag\' => !empty($scriptProperties[\'allText\']) ? $scriptProperties[\'allText\'] : $modx->lexicon(\'all_tags\'),
+        \'tagVar\' => $tagVar,
+        \'tagKey\' => $tv,
+        \'tagKeyVar\' => $tagKeyVar,
+        \'count\' => $totalTags,
+        \'target\' => $target,
+        \'cls\' => $cls,
+        \'url\' => $useTagFurl ? $modx->makeUrl($target).$tv.\'/\' : $modx->makeUrl($target,\'\',array(
+            $tagVar => \'\',
+            $tagKeyVar => $tv,
+        )),
+    ));
+    if ($modx->getOption(\'allPosition\',$scriptProperties,\'B\') == \'T\') {
+        array_unshift($output,$allChunk);
+    } else {
+        array_push($output,$allChunk);
+    }
+}
+
+/* output */
+$outputSeparator = $modx->getOption(\'outputSeparator\',$scriptProperties,"\\n");
+$output = implode($outputSeparator,$output);
+$toPlaceholder = $modx->getOption(\'toPlaceholder\',$scriptProperties,false);
+if (!empty($toPlaceholder)) {
+    $modx->setPlaceholder($toPlaceholder,$output);
+    return \'\';
+}
+return $output;',
         ),
         'policies' => 
         array (

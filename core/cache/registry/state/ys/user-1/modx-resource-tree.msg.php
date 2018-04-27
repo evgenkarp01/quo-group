@@ -9,4 +9,6 @@ return array (
   6 => '/root/web_0/web_9/web_32',
   7 => '/root/web_0/web_7',
   8 => '/root/web_0/web_9/web_35',
+  9 => '/root/web_0/web_10/web_31',
+  10 => '/root/web_0/web_10/web_29',
 );
