@@ -2,91 +2,161 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 29,
+    'id' => 9,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Пост первый',
+    'pagetitle' => 'Кейсы',
     'longtitle' => '',
-    'description' => ' the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.',
-    'alias' => 'post-pervyij',
+    'description' => '',
+    'alias' => 'kejsyi',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
     'unpub_date' => 0,
-    'parent' => 10,
-    'isfolder' => 0,
+    'parent' => 0,
+    'isfolder' => 1,
     'introtext' => '',
-    'content' => '<p> the daughters of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has been under fire since a Dallas<br /> Morning News article accused her of “blurring” facts, like exactly when she got divorced and how long her family lived in a trailer park</p>
-<p>rs of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has </p>',
+    'content' => '',
     'richtext' => 1,
-    'template' => 4,
-    'menuindex' => 0,
+    'template' => 6,
+    'menuindex' => 8,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1524507274,
+    'createdon' => 1524333363,
     'editedby' => 1,
-    'editedon' => 1524816269,
+    'editedon' => 1524900831,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 1524507240,
+    'publishedon' => 1524333360,
     'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
     'privatemgr' => 0,
     'content_dispo' => 0,
-    'hidemenu' => 1,
+    'hidemenu' => 0,
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'blog/post-pervyij.html',
+    'uri' => 'kejsyi/',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
-    'blogMigxImgTv' => 
+    'imgCaseTv' => 
     array (
-      0 => 'blogMigxImgTv',
-      1 => '[{"MIGX_id":"1","image":"1.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\\\/components\\\\\\/migx\\\\\\/style\\\\\\/images\\\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"2","image":"2.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\\\/components\\\\\\/migx\\\\\\/style\\\\\\/images\\\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"3","image":"3.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\\\/components\\\\\\/migx\\\\\\/style\\\\\\/images\\\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"4","image":"4.jpg","deleted":"0","published":1,"published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\\\/components\\\\\\/migx\\\\\\/style\\\\\\/images\\\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"5","image":"5.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\\\/components\\\\\\/migx\\\\\\/style\\\\\\/images\\\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"}]',
-      2 => 'default',
-      3 => NULL,
-      4 => 'migx',
-    ),
-    'ttlBlogTv' => 
-    array (
-      0 => 'ttlBlogTv',
-      1 => 'Я тут первый подзаголовок ',
-      2 => 'default',
-      3 => NULL,
-      4 => 'text',
-    ),
-    'imgBlogTv' => 
-    array (
-      0 => 'imgBlogTv',
-      1 => 'fix-it-pcs-e-commerce-website-design.png',
+      0 => 'imgCaseTv',
+      1 => '',
       2 => 'default',
       3 => NULL,
       4 => 'image',
     ),
-    'tags' => 
+    'delayCaseTv' => 
     array (
-      0 => 'tags',
-      1 => 'ewal',
+      0 => 'delayCaseTv',
+      1 => 'captionDelay1',
       2 => 'default',
       3 => NULL,
-      4 => 'autotag',
+      4 => 'listbox',
     ),
-    '_content' => '
-<!DOCTYPE html>
+    'title2CaseTv' => 
+    array (
+      0 => 'title2CaseTv',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'title3CaseTv' => 
+    array (
+      0 => 'title3CaseTv',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'delay2CaseTv' => 
+    array (
+      0 => 'delay2CaseTv',
+      1 => 'captionDelay2',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'delay3CaseTv' => 
+    array (
+      0 => 'delay3CaseTv',
+      1 => 'captionDelay3',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'delay4CaseTv' => 
+    array (
+      0 => 'delay4CaseTv',
+      1 => 'captionDelay4',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animateCaseTv' => 
+    array (
+      0 => 'animateCaseTv',
+      1 => 'FromLeft',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate2CaseTv' => 
+    array (
+      0 => 'animate2CaseTv',
+      1 => 'FromTop',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate3CaseTv' => 
+    array (
+      0 => 'animate3CaseTv',
+      1 => 'FromRight',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate4CaseTv' => 
+    array (
+      0 => 'animate4CaseTv',
+      1 => 'FromBottom',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'inOffCaseTv' => 
+    array (
+      0 => 'inOffCaseTv',
+      1 => '0',
+      2 => 'default',
+      3 => NULL,
+      4 => 'option',
+    ),
+    'imgWorkTv' => 
+    array (
+      0 => 'imgWorkTv',
+      1 => '',
+      2 => 'default',
+      3 => NULL,
+      4 => 'image',
+    ),
+    '_content' => '<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<base href="[[!++site_url]]" />
 	<meta charset="utf-8">
 	<title>White | responsive bootstrap3 html5 one page template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content=" the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.">
+	<meta name="description" content="">
 	<meta name="author" content="">
 	
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -149,9 +219,13 @@
 	</script>
 </head>
 <body>
+<!-- PRELOADER -->
 <img id="preloader" src="assets/site/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
 <div class="preloader_hide">
+	<!-- PAGE -->
 	<div id="page">
+		<!-- HEADER -->
 		<header>
 			
 			<!-- MENU BLOCK -->
@@ -175,99 +249,42 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1 active"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
 			</div><!-- //CONTAINER -->
 		</header>
+		<!-- //HEADER -->
 		<!-- BREADCRUMBS -->
 		<section class="breadcrumbs_block clearfix parallax">
 			<div class="container center">
-				<h1>Пост первый</h1>
-				<p> the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.</p>
+				<h1>Кейсы</h1>
+				<p></p>
 			</div>
 		</section><!-- //BREADCRUMBS -->
-		<section id="portfolio">
+		<!-- content -->
+		<!-- CONTAINER -->
 			<div class="container">
+				<!-- ROW -->
 				<div class="row">
-					<div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<div class="single_portfolio_post_title">Я тут первый подзаголовок </div>
-							<p> the daughters of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has been under fire since a Dallas<br /> Morning News article accused her of “blurring” facts, like exactly when she got divorced and how long her family lived in a trailer park</p>
-<p>rs of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has </p>
-						</div><!-- //TEXT WIDGET -->
-						
-						<hr>
-						
-						<!-- INFO WIDGET -->
-						<div class="sidepanel widget_info">
-						    <!--
-							<ul class="work_info">
-								<li>Location: <a href="javascript:void(0);" >Photo Studio,</a> <a href="javascript:void(0);" >New York</a></li>
-								<li>Model: <a href="javascript:void(0);" >Anna Smith</a></li>
-								<li>Style: <a href="javascript:void(0);" >Fashion Style</a></li>
-							</ul>
-							-->
-							<ul class="shared">
-								<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
-						</div><!-- //INFO WIDGET -->
-					</div><!-- //SIDEBAR -->
 					
-					
-					<!-- PORTFOLIO BLOCK -->
-					<div class="portfolio_block col-lg-8 col-md-8 pull-left padbot50">
-						
-						<!-- SINGLE PORTFOLIO POST -->
-						<div class="single_portfolio_post clearfix" data-animated="fadeInUp">
-							
-							<!-- PORTFOLIO SLIDER -->
-							<div class="flexslider portfolio_single_slider">
-								<ul class="slides">
-									<li><img src="/assets/cache_image/assets/site/images/blog/29/1_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/2_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/3_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/4_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/5_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li>
-								</ul>
-							</div><!-- //PORTFOLIO SLIDER -->
-						</div><!-- //SINGLE PORTFOLIO POST -->
-					</div><!-- //PORTFOLIO BLOCK -->
 				</div><!-- //ROW -->
 			</div><!-- //CONTAINER -->
-		</section>
+		<!-- PORTFOLIO -->
 		<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
-			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>
-	    
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>
+		<section id="portfolio">
+		</section><!-- //PORTFOLIO -->
+	   
 <section id="form_about">
     <div class="container">
         <div class="row">
@@ -316,6 +333,7 @@
      
 
 	</div>
+	<!-- FOOTER -->
 	<section id="contacts" style="min-height: 699px;">
 </section>
 <footer>
@@ -334,10 +352,12 @@
 		</div><!-- //ROW -->
 	</div><!-- //CONTAINER -->
 </footer>
+	<!-- //FOOTER -->
+	<!-- MAP -->
 	<div id="map">
 		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
 		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div>
+	</div><!-- //MAP -->
 </div>
 </body>
 </html>',
@@ -407,7 +427,7 @@
 	<meta charset="utf-8">
 	<title>White | responsive bootstrap3 html5 one page template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content=" the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.">
+	<meta name="description" content="">
 	<meta name="author" content="">
 	
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -480,8 +500,8 @@
 &tplOuter=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>` 
 &tplInner=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>`
 &tplParentRow=`@INLINE <li [[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
-]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1 active"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
-    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1 active"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
     '[[$header]]' => '<header>
 			
 			<!-- MENU BLOCK -->
@@ -505,7 +525,7 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1 active"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
@@ -514,94 +534,39 @@
     '[[$breadcrumbs]]' => '<!-- BREADCRUMBS -->
 		<section class="breadcrumbs_block clearfix parallax">
 			<div class="container center">
-				<h1>Пост первый</h1>
-				<p> the latest news, articles, and free apps. the latest news, articles, and free apps. the latest news, articles, and free apps.</p>
+				<h1>Кейсы</h1>
+				<p></p>
 			</div>
 		</section><!-- //BREADCRUMBS -->',
-    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/blog/{id}/` &createFolder=`1`]]' => 'assets/site/images/blog/29/',
-    '[[getImageList? &tvname=`blogMigxImgTv` &tpl=`blogSliderTpl`]]' => '<li><img src="/assets/cache_image/assets/site/images/blog/29/1_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/2_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/3_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/4_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/5_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li>',
-    '[[$blogSlider]]' => '<li><img src="/assets/cache_image/assets/site/images/blog/29/1_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/2_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/3_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/4_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/5_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li>',
-    '[[$posts]]' => '<section id="portfolio">
-			<div class="container">
-				<div class="row">
-					<div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<div class="single_portfolio_post_title">Я тут первый подзаголовок </div>
-							<p> the daughters of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has been under fire since a Dallas<br /> Morning News article accused her of “blurring” facts, like exactly when she got divorced and how long her family lived in a trailer park</p>
-<p>rs of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography to<br /> make it look like she was a more involved mom than she actually was. Davis, who is running for governor, has </p>
-						</div><!-- //TEXT WIDGET -->
-						
-						<hr>
-						
-						<!-- INFO WIDGET -->
-						<div class="sidepanel widget_info">
-						    <!--
-							<ul class="work_info">
-								<li>Location: <a href="javascript:void(0);" >Photo Studio,</a> <a href="javascript:void(0);" >New York</a></li>
-								<li>Model: <a href="javascript:void(0);" >Anna Smith</a></li>
-								<li>Style: <a href="javascript:void(0);" >Fashion Style</a></li>
-							</ul>
-							-->
-							<ul class="shared">
-								<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
-						</div><!-- //INFO WIDGET -->
-					</div><!-- //SIDEBAR -->
-					
-					
-					<!-- PORTFOLIO BLOCK -->
-					<div class="portfolio_block col-lg-8 col-md-8 pull-left padbot50">
-						
-						<!-- SINGLE PORTFOLIO POST -->
-						<div class="single_portfolio_post clearfix" data-animated="fadeInUp">
-							
-							<!-- PORTFOLIO SLIDER -->
-							<div class="flexslider portfolio_single_slider">
-								<ul class="slides">
-									<li><img src="/assets/cache_image/assets/site/images/blog/29/1_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/2_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/3_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/4_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li><li><img src="/assets/cache_image/assets/site/images/blog/29/5_870x590_3c2.jpg" title="[[+description]]" alt="[[+title]]" /></li>
-								</ul>
-							</div><!-- //PORTFOLIO SLIDER -->
-						</div><!-- //SINGLE PORTFOLIO POST -->
-					</div><!-- //PORTFOLIO BLOCK -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section>',
-    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/29/',
+    '[[$keysesRasdel]]' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
+    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/9/',
     '[[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]' => '',
     '[[$keyses]]' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
     '[[$formFooter]]' => '
 <section id="form_about">
     <div class="container">
@@ -670,8 +635,8 @@
 	</div><!-- //CONTAINER -->
 </footer>',
     '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Поиск',
-    '[[pdoResources?tpl=`workTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`ff84ab5fa3173dc5fbaa6a64a78288f2`&setTotal=`1`]]' => '<div class="item">
+    '[[pdoResources?tpl=`workTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`12`&offset=`0`&depth=`10`&outputSeparator=`
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`tot_prods`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`pg`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`prod.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="ewal-pag"><ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=``&tplPageNext=``&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=``&tplPageLastEmpty=``&tplPagePrevEmpty=``&tplPageNextEmpty=``&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`5e3cef762aa1cba28f91eed594f687ce`&setTotal=`1`]]' => '<div class="item">
     <div class="work_item">
         <div class="work_img">
             <img src="/assets/site/images/works/1.jpg" alt="Кейс первый" />
@@ -722,6 +687,76 @@
         <div class="work_description">
             <div class="work_descr_cont">
                 <a href="http://quo-group.ru/kejsyi/kejs-test.html" >кейс тест</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 5" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-5.html" >кейс 5</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 6" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-6.html" >кейс 6</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 7" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-7.html" >кейс 7</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 8" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-8.html" >кейс 8</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 9" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-9.html" >кейс 9</a>
                 <span>24 Апрель, 2018</span>
             </div>
         </div>
@@ -1118,214 +1153,50 @@
         array (
         ),
       ),
-      'posts' => 
+      'keysesRasdel' => 
       array (
         'fields' => 
         array (
-          'id' => 23,
-          'source' => 2,
+          'id' => 36,
+          'source' => 0,
           'property_preprocess' => false,
-          'name' => 'posts',
+          'name' => 'keysesRasdel',
           'description' => '',
           'editor_type' => 0,
-          'category' => 8,
+          'category' => 10,
           'cache_type' => 0,
-          'snippet' => '<section id="portfolio">
-			<div class="container">
-				<div class="row">
-					<div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<div class="single_portfolio_post_title">[[*ttlBlogTv]]</div>
-							[[*content]]
-						</div><!-- //TEXT WIDGET -->
-						
-						<hr>
-						
-						<!-- INFO WIDGET -->
-						<div class="sidepanel widget_info">
-						    <!--
-							<ul class="work_info">
-								<li>Location: <a href="javascript:void(0);" >Photo Studio,</a> <a href="javascript:void(0);" >New York</a></li>
-								<li>Model: <a href="javascript:void(0);" >Anna Smith</a></li>
-								<li>Style: <a href="javascript:void(0);" >Fashion Style</a></li>
-							</ul>
-							-->
-							<ul class="shared">
-								<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
-						</div><!-- //INFO WIDGET -->
-					</div><!-- //SIDEBAR -->
-					
-					
-					<!-- PORTFOLIO BLOCK -->
-					<div class="portfolio_block col-lg-8 col-md-8 pull-left padbot50">
-						
-						<!-- SINGLE PORTFOLIO POST -->
-						<div class="single_portfolio_post clearfix" data-animated="fadeInUp">
-							
-							<!-- PORTFOLIO SLIDER -->
-							<div class="flexslider portfolio_single_slider">
-								<ul class="slides">
-									[[$blogSlider]]
-								</ul>
-							</div><!-- //PORTFOLIO SLIDER -->
-						</div><!-- //SINGLE PORTFOLIO POST -->
-					</div><!-- //PORTFOLIO BLOCK -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section>',
+          'snippet' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<section id="portfolio">
-			<div class="container">
-				<div class="row">
-					<div class="sidebar col-lg-4 col-md-4 pull-right padbot50">
-						<!-- TEXT WIDGET -->
-						<div class="sidepanel widget_text">
-							<div class="single_portfolio_post_title">[[*ttlBlogTv]]</div>
-							[[*content]]
-						</div><!-- //TEXT WIDGET -->
-						
-						<hr>
-						
-						<!-- INFO WIDGET -->
-						<div class="sidepanel widget_info">
-						    <!--
-							<ul class="work_info">
-								<li>Location: <a href="javascript:void(0);" >Photo Studio,</a> <a href="javascript:void(0);" >New York</a></li>
-								<li>Model: <a href="javascript:void(0);" >Anna Smith</a></li>
-								<li>Style: <a href="javascript:void(0);" >Fashion Style</a></li>
-							</ul>
-							-->
-							<ul class="shared">
-								<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
-						</div><!-- //INFO WIDGET -->
-					</div><!-- //SIDEBAR -->
-					
-					
-					<!-- PORTFOLIO BLOCK -->
-					<div class="portfolio_block col-lg-8 col-md-8 pull-left padbot50">
-						
-						<!-- SINGLE PORTFOLIO POST -->
-						<div class="single_portfolio_post clearfix" data-animated="fadeInUp">
-							
-							<!-- PORTFOLIO SLIDER -->
-							<div class="flexslider portfolio_single_slider">
-								<ul class="slides">
-									[[$blogSlider]]
-								</ul>
-							</div><!-- //PORTFOLIO SLIDER -->
-						</div><!-- //SINGLE PORTFOLIO POST -->
-					</div><!-- //PORTFOLIO BLOCK -->
-				</div><!-- //ROW -->
-			</div><!-- //CONTAINER -->
-		</section>',
+          'content' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
         ),
         'source' => 
         array (
-          'id' => 2,
-          'name' => 'images',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-            'basePath' => 
-            array (
-              'name' => 'basePath',
-              'desc' => 'prop_file.basePath_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-            'baseUrl' => 
-            array (
-              'name' => 'baseUrl',
-              'desc' => 'prop_file.baseUrl_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'blogSlider' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 24,
-          'source' => 2,
-          'property_preprocess' => false,
-          'name' => 'blogSlider',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 8,
-          'cache_type' => 0,
-          'snippet' => '[[getImageList? &tvname=`blogMigxImgTv` &tpl=`blogSliderTpl`]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[getImageList? &tvname=`blogMigxImgTv` &tpl=`blogSliderTpl`]]',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 2,
-          'name' => 'images',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-            'basePath' => 
-            array (
-              'name' => 'basePath',
-              'desc' => 'prop_file.basePath_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-            'baseUrl' => 
-            array (
-              'name' => 'baseUrl',
-              'desc' => 'prop_file.baseUrl_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-          ),
-          'is_stream' => true,
         ),
       ),
       'keyses' => 
@@ -1341,35 +1212,22 @@
           'category' => 6,
           'cache_type' => 0,
           'snippet' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
@@ -1377,35 +1235,22 @@
           'static' => false,
           'static_file' => '',
           'content' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
@@ -1628,14 +1473,14 @@
         array (
         ),
       ),
-      'work' => 
+      'workRasdel' => 
       array (
         'fields' => 
         array (
-          'id' => 21,
+          'id' => 37,
           'source' => 0,
           'property_preprocess' => false,
-          'name' => 'work',
+          'name' => 'workRasdel',
           'description' => '',
           'editor_type' => 0,
           'category' => 10,
@@ -1643,11 +1488,25 @@
           'snippet' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`10`
+	&limit=`12`
 	&tpl=`workTpl`
     &includeTVs=`imgWorkTv`
-	&parents=`9`
-]]',
+	&parents=`[[*id]]`
+
+    &pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <div class="ewal-pag"><ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul></div>`
+    &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
+    &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
+    &tplPagePrev=``
+    &tplPageNext=``
+    &tplPagePrevEmpty=``
+    &tplPageNextEmpty=``
+    &tplPageFirstEmpty=``
+    &tplPageLastEmpty=``
+]]
+[[!+prod.nav]]',
           'locked' => false,
           'properties' => 
           array (
@@ -1657,11 +1516,25 @@
           'content' => '[[!pdoPage?
     &element=`pdoResources`
     &showHidden=`1`
-	&limit=`10`
+	&limit=`12`
 	&tpl=`workTpl`
     &includeTVs=`imgWorkTv`
-	&parents=`9`
-]]',
+	&parents=`[[*id]]`
+
+    &pageNavVar=`prod.nav`
+    &totalVar=`tot_prods`
+    &pageVarKey=`pg`
+    &tplPageWrapper=`@INLINE <div class="ewal-pag"><ul class="pagination clearfix">[[+prev]][[+pages]][[+next]]</ul></div>`
+    &tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`
+    &tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`
+    &tplPagePrev=``
+    &tplPageNext=``
+    &tplPagePrevEmpty=``
+    &tplPageNextEmpty=``
+    &tplPageFirstEmpty=``
+    &tplPageLastEmpty=``
+]]
+[[!+prod.nav]]',
         ),
         'policies' => 
         array (
@@ -4044,107 +3917,6 @@ if ($resource = $modx->getObject(\'modResource\', $docid)) {
         array (
         ),
       ),
-      'phpthumbon' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 31,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'phpthumbon',
-          'description' => 'Создание превьюх картинок',
-          'editor_type' => 0,
-          'category' => 0,
-          'cache_type' => 0,
-          'snippet' => '/**
- * phpThumbOn
- * Создание превьюх картинок
- *
- * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
- *
- * @category images
- * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
- * @author Agel_Nash <Agel_Nash@xaker.ru>
- */
-
-if(empty($modx) || !($modx instanceof modX)) return \'\';
-
-$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
-
-if(!isset($modx->phpThumbOn)){
-    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
-}
-
-if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
-    $modx->phpThumbOn = null;
-}
-return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
-          'locked' => false,
-          'properties' => 
-          array (
-            'input' => 
-            array (
-              'name' => 'input',
-              'desc' => 'phpthumbon.input',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'phpthumbon:properties',
-              'area' => '',
-              'desc_trans' => 'Путь к картинке',
-              'area_trans' => '',
-            ),
-            'options' => 
-            array (
-              'name' => 'options',
-              'desc' => 'phpthumbon.folder',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'phpthumbon:properties',
-              'area' => '',
-              'desc_trans' => 'phpthumbon.folder',
-              'area_trans' => '',
-            ),
-          ),
-          'moduleguid' => '',
-          'static' => false,
-          'static_file' => '',
-          'content' => '/**
- * phpThumbOn
- * Создание превьюх картинок
- *
- * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
- *
- * @category images
- * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
- * @author Agel_Nash <Agel_Nash@xaker.ru>
- */
-
-if(empty($modx) || !($modx instanceof modX)) return \'\';
-
-$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
-
-if(!isset($modx->phpThumbOn)){
-    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
-}
-
-if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
-    $modx->phpThumbOn = null;
-}
-return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
       'Year' => 
       array (
         'fields' => 
@@ -5599,79 +5371,6 @@ if ($isAjax) {
     ),
     'modTemplateVar' => 
     array (
-      'ttlBlogTv' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 20,
-          'source' => 2,
-          'property_preprocess' => false,
-          'type' => 'text',
-          'name' => 'ttlBlogTv',
-          'caption' => 'Подзаголовок для слайдера',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 8,
-          'locked' => false,
-          'elements' => '',
-          'rank' => 0,
-          'display' => 'default',
-          'default_text' => '',
-          'properties' => 
-          array (
-          ),
-          'input_properties' => 
-          array (
-            'allowBlank' => 'true',
-            'minLength' => '',
-            'maxLength' => '',
-            'regex' => '',
-            'regexText' => '',
-          ),
-          'output_properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 2,
-          'name' => 'images',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-            'basePath' => 
-            array (
-              'name' => 'basePath',
-              'desc' => 'prop_file.basePath_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-            'baseUrl' => 
-            array (
-              'name' => 'baseUrl',
-              'desc' => 'prop_file.baseUrl_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-          ),
-          'is_stream' => true,
-        ),
-      ),
     ),
   ),
 );

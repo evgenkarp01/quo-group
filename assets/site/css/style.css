@@ -1971,7 +1971,6 @@ input[type="color"]:focus {
 	
 	.respond_clear {clear:both; height:0; font-size:0;}
 	
-	
 }
 
 @media (max-width: 479px) {
@@ -2133,30 +2132,31 @@ input[type="color"]:focus {
     width: 100%;
     height: auto;
 }
+.ewal-cases{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ewal-cases .item{
+    max-width: 550px;
+    width: 25%;
+    height: auto;
+}
+.ewal-pag{
+    margin-top: 20px;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .ewal-cases .item{
+        width: 50%;
+    }
+}
+@media (max-width: 479px) {
+    .ewal-cases .item{
+        width: 100%;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    

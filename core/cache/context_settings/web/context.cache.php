@@ -23,7 +23,12 @@
     'uslugi/dizajn.html' => 15,
     'uslugi/fotografiya.html' => 16,
     'kejsyi/kejs-pervyij.html' => 32,
+    'kejsyi/kejs-6.html' => 38,
+    'kejsyi/kejs-7.html' => 39,
+    'kejsyi/kejs-8.html' => 40,
     'kejsyi/kejs-vtoroj.html' => 33,
+    'kejsyi/kejs-5.html' => 37,
+    'kejsyi/kejs-9.html' => 41,
     'kejsyi/kejs-tretij.html' => 34,
     'kejsyi/kejs-test.html' => 35,
     'blog/post-pervyij.html' => 29,
@@ -70,9 +75,14 @@
     9 => 
     array (
       0 => 32,
-      1 => 33,
-      2 => 34,
-      3 => 35,
+      1 => 38,
+      2 => 39,
+      3 => 40,
+      4 => 33,
+      5 => 37,
+      6 => 41,
+      7 => 34,
+      8 => 35,
     ),
     10 => 
     array (

@@ -2,65 +2,152 @@
   'resourceClass' => 'modDocument',
   'resource' => 
   array (
-    'id' => 1,
+    'id' => 32,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Главная',
-    'longtitle' => '<b>Performance</b> marketing !!!!',
+    'pagetitle' => 'Кейс первый',
+    'longtitle' => 'Кейс первейший',
     'description' => '',
-    'alias' => 'index',
+    'alias' => 'kejs-pervyij',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
     'unpub_date' => 0,
-    'parent' => 0,
-    'isfolder' => 1,
-    'introtext' => '',
-    'content' => '<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your <span class="mce-button-yellow">liking.</span></p>
-<p> </p>',
+    'parent' => 9,
+    'isfolder' => 0,
+    'introtext' => 'Затестил описание слайда',
+    'content' => '<p>Текст</p>',
     'richtext' => 1,
-    'template' => 1,
+    'template' => 6,
     'menuindex' => 0,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1524321600,
+    'createdon' => 1524552252,
     'editedby' => 1,
-    'editedon' => 1524682082,
+    'editedon' => 1524912851,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 0,
-    'publishedby' => 0,
+    'publishedon' => 1524552240,
+    'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
     'privatemgr' => 0,
     'content_dispo' => 0,
-    'hidemenu' => 0,
+    'hidemenu' => 1,
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'index/',
+    'uri' => 'kejsyi/kejs-pervyij.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
     'properties' => NULL,
-    'imgIndexTv' => 
+    'imgCaseTv' => 
     array (
-      0 => 'imgIndexTv',
-      1 => 'logo.png',
+      0 => 'imgCaseTv',
+      1 => 'slide1_bg.jpg',
       2 => 'default',
       3 => NULL,
       4 => 'image',
     ),
-    'clientsMigxImgTv' => 
+    'delayCaseTv' => 
     array (
-      0 => 'clientsMigxImgTv',
-      1 => '[{"MIGX_id":"1","title":"Первый","description":"Первый клиент","showBtn":"","image":"1.jpg","published":1,"published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\/components\\\\/migx\\\\/style\\\\/images\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"2","image":"2.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\/components\\\\/migx\\\\/style\\\\/images\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"3","image":"3.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\/components\\\\/migx\\\\/style\\\\/images\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"4","image":"4.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\/components\\\\/migx\\\\/style\\\\/images\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"},{"MIGX_id":"5","image":"5.jpg","deleted":"0","published":"0","published_ro":"{\\"MIGX_id\\":3,\\"name\\":\\"unpublished\\",\\"use_as_fallback\\":\\"\\",\\"value\\":\\"0\\",\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets/components/migx/style/images/cb_empty.png\\",\\"idx\\":2,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\",\\"tv_type\\":\\"migx\\"}"},{"MIGX_id":"6","image":"6.jpg","deleted":"0","published":"1","published_ro":"{\\"MIGX_id\\":2,\\"name\\":\\"published\\",\\"use_as_fallback\\":\\"\\",\\"value\\":1,\\"clickaction\\":\\"switchOption\\",\\"handler\\":\\"\\",\\"image\\":\\"assets\\\\/components\\\\/migx\\\\/style\\\\/images\\\\/cb_ticked.png\\",\\"idx\\":1,\\"_renderer\\":\\"this.renderSwitchStatusOptions\\",\\"selectorconfig\\":\\"\\"}"}]',
+      0 => 'delayCaseTv',
+      1 => 'captionDelay7',
       2 => 'default',
       3 => NULL,
-      4 => 'migx',
+      4 => 'listbox',
+    ),
+    'title2CaseTv' => 
+    array (
+      0 => 'title2CaseTv',
+      1 => 'aaaк',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'title3CaseTv' => 
+    array (
+      0 => 'title3CaseTv',
+      1 => 'bbbк',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'delay2CaseTv' => 
+    array (
+      0 => 'delay2CaseTv',
+      1 => 'captionDelay1',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'delay3CaseTv' => 
+    array (
+      0 => 'delay3CaseTv',
+      1 => 'captionDelay2',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'delay4CaseTv' => 
+    array (
+      0 => 'delay4CaseTv',
+      1 => 'captionDelay1',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animateCaseTv' => 
+    array (
+      0 => 'animateCaseTv',
+      1 => 'FromRight',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate2CaseTv' => 
+    array (
+      0 => 'animate2CaseTv',
+      1 => 'FromRight',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate3CaseTv' => 
+    array (
+      0 => 'animate3CaseTv',
+      1 => 'FromRight',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'animate4CaseTv' => 
+    array (
+      0 => 'animate4CaseTv',
+      1 => 'FromRight',
+      2 => 'default',
+      3 => NULL,
+      4 => 'listbox',
+    ),
+    'inOffCaseTv' => 
+    array (
+      0 => 'inOffCaseTv',
+      1 => '1',
+      2 => 'default',
+      3 => NULL,
+      4 => 'option',
+    ),
+    'imgWorkTv' => 
+    array (
+      0 => 'imgWorkTv',
+      1 => '1.jpg',
+      2 => 'default',
+      3 => NULL,
+      4 => 'image',
     ),
     '_content' => '<!DOCTYPE html>
 <html lang="ru">
@@ -132,9 +219,13 @@
 	</script>
 </head>
 <body>
+<!-- PRELOADER -->
 <img id="preloader" src="assets/site/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
 <div class="preloader_hide">
+	<!-- PAGE -->
 	<div id="page">
+		<!-- HEADER -->
 		<header>
 			
 			<!-- MENU BLOCK -->
@@ -158,98 +249,48 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
 			</div><!-- //CONTAINER -->
 		</header>
-		[[!$slider]]
-		<section id="about">
-			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-	<!-- CONTAINER -->
-	<div class="container">
-	
-		<!-- ROW -->
-		<div class="row">
-		    [[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`4`
-	&tpl=`serviceTpl`
-    &includeTVs=`inOffServiceTv`
-	&depth=`1`
-	&parents=`7`
-	&tvFilters=`inOffServiceTv==1`
-]]
-		</div><!-- //ROW -->
-	</div><!-- //CONTAINER -->
-</div>
-			<div class="purpose_block">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-					
-					<!-- ROW -->
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h1><b>Performance</b> marketing !!!!</h1>
-							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your <span class="mce-button-yellow">liking.</span></p>
-<p> </p>
-							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="kejsyi/" >наши кейсы</a>
-						</div>
-						
-						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="assets/site/images/logo.png" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
+		<!-- //HEADER -->
+		<!-- BREADCRUMBS -->
+		<section class="breadcrumbs_block clearfix parallax">
+			<div class="container center">
+				<h1>Кейс первейший</h1>
+				<p></p>
 			</div>
-		</section>
-		<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
+		</section><!-- //BREADCRUMBS -->
+		<!-- content -->
+		<!-- CONTAINER -->
 			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
+				<!-- ROW -->
+				<div class="row">
+					<p>Текст</p>
+				</div><!-- //ROW -->
 			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+		<!-- PORTFOLIO -->
+		<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/1_170x100_181.jpg" title="Первый клиент" alt="Первый" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/2_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/3_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/4_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/5_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/6_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div>
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>
+		</div>
+	</div>
+</section>
+		<section id="portfolio">
+		</section><!-- //PORTFOLIO -->
 	   
 <section id="form_about">
     <div class="container">
@@ -299,6 +340,7 @@
      
 
 	</div>
+	<!-- FOOTER -->
 	<section id="contacts" style="min-height: 699px;">
 </section>
 <footer>
@@ -317,10 +359,12 @@
 		</div><!-- //ROW -->
 	</div><!-- //CONTAINER -->
 </footer>
+	<!-- //FOOTER -->
+	<!-- MAP -->
 	<div id="map">
 		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
 		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div>
+	</div><!-- //MAP -->
 </div>
 </body>
 </html>',
@@ -463,8 +507,8 @@
 &tplOuter=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>` 
 &tplInner=`@INLINE <ul [[+classes]]>[[+wrapper]]</ul>`
 &tplParentRow=`@INLINE <li [[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
-]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
-    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
+    '[[$mainMenu]]' => '<ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>',
     '[[$header]]' => '<header>
 			
 			<!-- MENU BLOCK -->
@@ -488,119 +532,48 @@
 					<!-- MENU -->
 					<div class="pull-right">
 					    <nav class="navmenu center">
-					    <ul  class=""><li class="first scroll_btn1 active"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
+					    <ul  class=""><li class="first scroll_btn1"><a href="/" >Главная</a></li><li  class="scroll_btn1 sub-menu"><a href="uslugi/" >Услуги</a><ul  class="laval-menu"><li  class="first scroll_btn2 sub-menu"><a href="uslugi/audit-i-analitiki/" >Аудит и аналитики</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/audit-i-analitiki/texnicheskij-audit.html" >Технический аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/marketingovyij-audit.html" >Маркетинговый аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/poiskovyij-seo-audit.html" >Поисковый  seo аудит</a></li><li class="scroll_btn3"><a href="uslugi/audit-i-analitiki/yuzabiliti-audit.html" >Юзабилити  аудит</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/prodvizhenie-sajtov/" >Продвижение сайтов</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/seo-optimizacziya.html" >SEO оптимизация</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >Контекстная реклама</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/smm,-smo,-sem.html" >SMM, SMO, SEM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/e-mail-marketing.html" >e-mail маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/serm.html" >SERM</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/partnerskij-marketing.html" >Партнерский маркетинг</a></li><li class="scroll_btn3"><a href="uslugi/prodvizhenie-sajtov/kontekst-marketing.html" >Контекст маркетинг</a></li></ul></li><li  class="scroll_btn2 sub-menu"><a href="uslugi/razrabotka/" >Разработка</a><ul  class="laval-menu"><li class="first scroll_btn3"><a href="uslugi/razrabotka/razrabotka-sajta.html" >Разработка сайта</a></li></ul></li><li class="scroll_btn2"><a href="uslugi/dizajn.html" >Дизайн</a></li><li class="scroll_btn2"><a href="uslugi/fotografiya.html" >Фотография</a></li></ul></li><li class="scroll_btn1"><a href="agentstvo.html" >Агентство</a></li><li class="scroll_btn1 active"><a href="kejsyi/" >Кейсы</a></li><li class="scroll_btn1"><a href="blog/" >Блог</a></li><li class="scroll_btn1"><a href="kontaktyi.html" >Контакты</a></li></ul>
 						</nav>
 					</div><!-- //MENU -->
 				</div><!-- //MENU BLOCK -->
 			</div><!-- //CONTAINER -->
 		</header>',
-    '[[$service]]' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`4`
-	&tpl=`serviceTpl`
-    &includeTVs=`inOffServiceTv`
-	&depth=`1`
-	&parents=`7`
-	&tvFilters=`inOffServiceTv==1`
-]]',
-    '[[$aboutIndex]]' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-	<!-- CONTAINER -->
-	<div class="container">
-	
-		<!-- ROW -->
-		<div class="row">
-		    [[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`4`
-	&tpl=`serviceTpl`
-    &includeTVs=`inOffServiceTv`
-	&depth=`1`
-	&parents=`7`
-	&tvFilters=`inOffServiceTv==1`
-]]
-		</div><!-- //ROW -->
-	</div><!-- //CONTAINER -->
-</div>',
-    '[[$contentIndex]]' => '<div class="purpose_block">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-					
-					<!-- ROW -->
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h1><b>Performance</b> marketing !!!!</h1>
-							<p><strong>We tried to make</strong> very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your <span class="mce-button-yellow">liking.</span></p>
-<p> </p>
-							<a class="btn btn-active" href="uslugi/" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="kejsyi/" >наши кейсы</a>
-						</div>
-						
-						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="assets/site/images/logo.png" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
-    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/1/',
-    '[[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]' => '<div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/1_170x100_181.jpg" title="Первый клиент" alt="Первый" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/2_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/3_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/4_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/5_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/6_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div>',
-    '[[$keyses]]' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+    '[[$breadcrumbs]]' => '<!-- BREADCRUMBS -->
+		<section class="breadcrumbs_block clearfix parallax">
+			<div class="container center">
+				<h1>Кейс первейший</h1>
+				<p></p>
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    <div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/1_170x100_181.jpg" title="Первый клиент" alt="Первый" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/2_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/3_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/4_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/5_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div><div class="col-lg-2 col-md-2 col-sm-2 client_img">
-	<img src="/assets/cache_image/assets/site/images/clients/1/6_170x100_181.jpg" title="[[+description]]" alt="[[+title]]" />
-</div>
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</section><!-- //BREADCRUMBS -->',
+    '[[$keysesRasdel]]' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
+    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/32/',
+    '[[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]' => '',
+    '[[$keyses]]' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    
+			</div>
+		</div>
+	</div>
+</section>',
     '[[$formFooter]]' => '
 <section id="form_about">
     <div class="container">
@@ -669,90 +642,9 @@
 	</div><!-- //CONTAINER -->
 </footer>',
     '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Поиск',
-    '[[pdoResources?tpl=`sldrDescriptionTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`33`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`ef4966c60a02b3371055cff90020aea0`&setTotal=`1`]]' => '<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
-	<div class="flex_caption1">
-		<p class="title1 captionDelay7 FromRight">Кейс первый</p>
-		<p class="title2 captionDelay1 FromRight">Кейс первейший</p>
-		<p class="title3 captionDelay2 FromRight">bbbк</p>
-		<p class="title4 captionDelay1 FromRight">Затестил описание слайда</p>
-	</div>
-	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-pervyij.html" >Подробнее</a>
-	
-	<!-- VIDEO BACKGROUND -->
-	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-	<!-- //VIDEO BACKGROUND -->
-</li>
-<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
-	<div class="flex_caption1">
-		<p class="title1 captionDelay1 FromLeft">Кейс второй</p>
-		<p class="title2 captionDelay2 FromTop"></p>
-		<p class="title3 captionDelay3 FromRight"></p>
-		<p class="title4 captionDelay4 FromBottom"></p>
-	</div>
-	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-vtoroj.html" >Подробнее</a>
-	
-	<!-- VIDEO BACKGROUND -->
-	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-	<!-- //VIDEO BACKGROUND -->
-</li>
-<li class="slide1" style="background-image:url(/assets/site/images/slider/slide2_bg.jpg)">
-	<div class="flex_caption1">
-		<p class="title1 captionDelay1 FromLeft">Кейс третий</p>
-		<p class="title2 captionDelay2 FromTop"></p>
-		<p class="title3 captionDelay3 FromRight"></p>
-		<p class="title4 captionDelay4 FromBottom"></p>
-	</div>
-	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-tretij.html" >Подробнее</a>
-	
-	<!-- VIDEO BACKGROUND -->
-	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-	<!-- //VIDEO BACKGROUND -->
-</li>
-<li class="slide1" style="background-image:url(/assets/site/images/slider/slide3_bg.jpg)">
-	<div class="flex_caption1">
-		<p class="title1 captionDelay1 FromLeft">кейс тест</p>
-		<p class="title2 captionDelay2 FromTop">еусе</p>
-		<p class="title3 captionDelay3 FromRight">уууу у у у</p>
-		<p class="title4 captionDelay4 FromBottom"></p>
-	</div>
-	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-test.html" >Подробнее</a>
-	
-	<!-- VIDEO BACKGROUND -->
-	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
-	<!-- //VIDEO BACKGROUND -->
-</li>',
-    '[[pdoResources?tpl=`sldrImgTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`3`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgCaseTv, inOffCaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`760ddcb233e9aac314598d72fb94e804`&setTotal=`1`]]' => '<li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="Кейс первейший" /></li>
-<li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="" /></li>
-<li><img src="/assets/cache_image/assets/site/images/slider/slide2_bg_1920x1080_28b.jpg" alt="" /></li>',
-    '[[pdoResources?tpl=`serviceTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`4`&offset=`0`&depth=`1`&outputSeparator=`
-`&toPlaceholder=``&parents=`7`&includeContent=``&includeTVs=`inOffServiceTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffServiceTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`b288890ceecc77c2d4d77dc78609429d`&setTotal=`1`]]' => '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-	<a class="services_item" href="http://quo-group.ru/uslugi/prodvizhenie-sajtov/serm.html" >
-		<p>SERM</p>
-		<span></span>
-	</a>
-</div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-	<a class="services_item" href="http://quo-group.ru/uslugi/prodvizhenie-sajtov/kontekstnaya-reklama.html" >
-		<p>Контекстная реклама</p>
-		<span>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
-	</a>
-</div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-	<a class="services_item" href="http://quo-group.ru/uslugi/fotografiya.html" >
-		<p>Фотография</p>
-		<span>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo., eaque ipsa quae ab illo inventore veritatis&#8230;</span>
-	</a>
-</div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
-	<a class="services_item" href="http://quo-group.ru/uslugi/razrabotka/" >
-		<p>Разработка</p>
-		<span>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
-	</a>
-</div>',
+    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/blog/{id}/` &createFolder=`1`]]' => 'assets/site/images/blog/32/',
     '[[pdoResources?tpl=`workTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`347e79aad0a6c9504ee90a9b33a89067`&setTotal=`1`]]' => '<div class="item">
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`9802789afe21b0f46dfb08b81ac6ebd4`&setTotal=`1`]]' => '<div class="item">
     <div class="work_item">
         <div class="work_img">
             <img src="/assets/site/images/works/1.jpg" alt="Кейс первый" />
@@ -803,6 +695,76 @@
         <div class="work_description">
             <div class="work_descr_cont">
                 <a href="http://quo-group.ru/kejsyi/kejs-test.html" >кейс тест</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 5" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-5.html" >кейс 5</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 6" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-6.html" >кейс 6</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 7" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-7.html" >кейс 7</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 8" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-8.html" >кейс 8</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 9" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-9.html" >кейс 9</a>
                 <span>24 Апрель, 2018</span>
             </div>
         </div>
@@ -1159,44 +1121,38 @@
           'is_stream' => true,
         ),
       ),
-      'aboutIndex' => 
+      'breadcrumbs' => 
       array (
         'fields' => 
         array (
-          'id' => 5,
+          'id' => 11,
           'source' => 0,
           'property_preprocess' => false,
-          'name' => 'aboutIndex',
+          'name' => 'breadcrumbs',
           'description' => '',
           'editor_type' => 0,
-          'category' => 7,
+          'category' => 6,
           'cache_type' => 0,
-          'snippet' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-	<!-- CONTAINER -->
-	<div class="container">
-	
-		<!-- ROW -->
-		<div class="row">
-		    [[$service]]
-		</div><!-- //ROW -->
-	</div><!-- //CONTAINER -->
-</div>',
+          'snippet' => '<!-- BREADCRUMBS -->
+		<section class="breadcrumbs_block clearfix parallax">
+			<div class="container center">
+				<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+				<p>[[*description]]</p>
+			</div>
+		</section><!-- //BREADCRUMBS -->',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
-	<!-- CONTAINER -->
-	<div class="container">
-	
-		<!-- ROW -->
-		<div class="row">
-		    [[$service]]
-		</div><!-- //ROW -->
-	</div><!-- //CONTAINER -->
-</div>',
+          'content' => '<!-- BREADCRUMBS -->
+		<section class="breadcrumbs_block clearfix parallax">
+			<div class="container center">
+				<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+				<p>[[*description]]</p>
+			</div>
+		</section><!-- //BREADCRUMBS -->',
         ),
         'policies' => 
         array (
@@ -1205,120 +1161,44 @@
         array (
         ),
       ),
-      'service' => 
+      'keysesRasdel' => 
       array (
         'fields' => 
         array (
-          'id' => 19,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'service',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 12,
-          'cache_type' => 0,
-          'snippet' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`4`
-	&tpl=`serviceTpl`
-    &includeTVs=`inOffServiceTv`
-	&depth=`1`
-	&parents=`7`
-	&tvFilters=`inOffServiceTv==1`
-]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`4`
-	&tpl=`serviceTpl`
-    &includeTVs=`inOffServiceTv`
-	&depth=`1`
-	&parents=`7`
-	&tvFilters=`inOffServiceTv==1`
-]]',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'contentIndex' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 6,
+          'id' => 36,
           'source' => 0,
           'property_preprocess' => false,
-          'name' => 'contentIndex',
+          'name' => 'keysesRasdel',
           'description' => '',
           'editor_type' => 0,
-          'category' => 7,
+          'category' => 10,
           'cache_type' => 0,
-          'snippet' => '<div class="purpose_block">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-					
-					<!-- ROW -->
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
-							[[*content]]
-							<a class="btn btn-active" href="[[~7]]" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="[[~9]]" >наши кейсы</a>
-						</div>
-						
-						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="[[*imgIndexTv]]" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
+          'snippet' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div class="purpose_block">
-				
-				<!-- CONTAINER -->
-				<div class="container">
-					
-					<!-- ROW -->
-					<div class="row">
-					
-						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
-							<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
-							[[*content]]
-							<a class="btn btn-active" href="[[~7]]" ><span data-hover="Перейтиt">Заказать услугу</span></a>
-							<a class="btn" href="[[~9]]" >наши кейсы</a>
-						</div>
-						
-						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
-							<img class="ipad_img1" src="[[*imgIndexTv]]" alt="" />
-						</div>
-					</div><!-- //ROW -->
-				</div><!-- //CONTAINER -->
-			</div>',
+          'content' => '<section id="projects" class="padbot20">
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="projects_slider ewal-cases">
+			[[!$workRasdel]]
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
@@ -1340,35 +1220,22 @@
           'category' => 6,
           'cache_type' => 0,
           'snippet' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
@@ -1376,35 +1243,22 @@
           'static' => false,
           'static_file' => '',
           'content' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
@@ -1619,158 +1473,6 @@
           'static_file' => '',
           'content' => '[[!SimpleSearchForm? &landing=`30` &tpl=`searchTpl`]]
 ',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
-      'slider' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 4,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'slider',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 7,
-          'cache_type' => 0,
-          'snippet' => '<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-				    
-					[[!$sldrDescription]]
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-				    [[!$sldrImg]]
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '<section id="home" class="padbot0">
-				
-			<!-- TOP SLIDER -->
-			<div class="flexslider top_slider">
-				<ul class="slides">
-				    
-					[[!$sldrDescription]]
-				</ul>
-			</div>
-			<div id="carousel">
-				<ul class="slides">
-				    [[!$sldrImg]]
-				</ul>
-			</div><!-- //TOP SLIDER -->
-		</section>',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
-      'sldrDescription' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 17,
-          'source' => 1,
-          'property_preprocess' => false,
-          'name' => 'sldrDescription',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 11,
-          'cache_type' => 0,
-          'snippet' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`33`
-	&parents=`9`
-	&tpl=`sldrDescriptionTpl`
-	&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`
-    &tvFilters=`inOffCaseTv==1`
-]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`33`
-	&parents=`9`
-	&tpl=`sldrDescriptionTpl`
-	&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`
-    &tvFilters=`inOffCaseTv==1`
-]]',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 1,
-          'name' => 'Filesystem',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-          ),
-          'is_stream' => true,
-        ),
-      ),
-      'sldrImg' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 16,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'sldrImg',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 11,
-          'cache_type' => 0,
-          'snippet' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`3`
-	&includeTVs=`imgCaseTv, inOffCaseTv`
-	&tpl=`sldrImgTpl`
-	&parents=`9`
-    &tvFilters=`inOffCaseTv==1`
-]]',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[!pdoPage?
-    &element=`pdoResources`
-    &showHidden=`1`
-	&limit=`3`
-	&includeTVs=`imgCaseTv, inOffCaseTv`
-	&tpl=`sldrImgTpl`
-	&parents=`9`
-    &tvFilters=`inOffCaseTv==1`
-]]',
         ),
         'policies' => 
         array (
@@ -4195,107 +3897,6 @@ if ($resource = $modx->getObject(\'modResource\', $docid)) {
         array (
         ),
       ),
-      'phpthumbon' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 31,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'phpthumbon',
-          'description' => 'Создание превьюх картинок',
-          'editor_type' => 0,
-          'category' => 0,
-          'cache_type' => 0,
-          'snippet' => '/**
- * phpThumbOn
- * Создание превьюх картинок
- *
- * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
- *
- * @category images
- * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
- * @author Agel_Nash <Agel_Nash@xaker.ru>
- */
-
-if(empty($modx) || !($modx instanceof modX)) return \'\';
-
-$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
-
-if(!isset($modx->phpThumbOn)){
-    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
-}
-
-if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
-    $modx->phpThumbOn = null;
-}
-return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
-          'locked' => false,
-          'properties' => 
-          array (
-            'input' => 
-            array (
-              'name' => 'input',
-              'desc' => 'phpthumbon.input',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'phpthumbon:properties',
-              'area' => '',
-              'desc_trans' => 'Путь к картинке',
-              'area_trans' => '',
-            ),
-            'options' => 
-            array (
-              'name' => 'options',
-              'desc' => 'phpthumbon.folder',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => '',
-              'lexicon' => 'phpthumbon:properties',
-              'area' => '',
-              'desc_trans' => 'phpthumbon.folder',
-              'area_trans' => '',
-            ),
-          ),
-          'moduleguid' => '',
-          'static' => false,
-          'static_file' => '',
-          'content' => '/**
- * phpThumbOn
- * Создание превьюх картинок
- *
- * Copyright 2013 by Agel_Nash <Agel_Nash@xaker.ru>
- *
- * @category images
- * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
- * @author Agel_Nash <Agel_Nash@xaker.ru>
- */
-
-if(empty($modx) || !($modx instanceof modX)) return \'\';
-
-$componentPath = (string)$modx->getOption(\'phpthumbon.core_path\', null, $modx->getOption(\'core_path\').\'components/phpthumbon/\');
-
-if(!isset($modx->phpThumbOn)){
-    $modx->phpThumbOn = $modx->getService("phpthumbon","phpThumbOn",$componentPath.\'model/phpthumbon/\', $scriptProperties);
-}
-
-if(!($flag = ($modx->phpThumbOn instanceof phpThumbOn))){
-    $modx->phpThumbOn = null;
-}
-return $flag ? $modx->phpThumbOn->run($scriptProperties) : $modx->getOption(\'phpthumbon.noimage\', $scriptProperties);',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
       'Year' => 
       array (
         'fields' => 
@@ -5750,79 +5351,6 @@ if ($isAjax) {
     ),
     'modTemplateVar' => 
     array (
-      'imgIndexTv' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 1,
-          'source' => 2,
-          'property_preprocess' => false,
-          'type' => 'image',
-          'name' => 'imgIndexTv',
-          'caption' => 'Изображение на главной',
-          'description' => '470х510',
-          'editor_type' => 0,
-          'category' => 7,
-          'locked' => false,
-          'elements' => '',
-          'rank' => 0,
-          'display' => 'default',
-          'default_text' => '',
-          'properties' => 
-          array (
-          ),
-          'input_properties' => 
-          array (
-            'allowBlank' => 'true',
-            'minLength' => '',
-            'maxLength' => '',
-            'regex' => '',
-            'regexText' => '',
-          ),
-          'output_properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-          'id' => 2,
-          'name' => 'images',
-          'description' => '',
-          'class_key' => 'sources.modFileMediaSource',
-          'properties' => 
-          array (
-            'basePath' => 
-            array (
-              'name' => 'basePath',
-              'desc' => 'prop_file.basePath_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-            'baseUrl' => 
-            array (
-              'name' => 'baseUrl',
-              'desc' => 'prop_file.baseUrl_desc',
-              'type' => 'textfield',
-              'options' => 
-              array (
-              ),
-              'value' => 'assets/site/images/',
-              'lexicon' => 'core:source',
-            ),
-          ),
-          'is_stream' => true,
-        ),
-      ),
     ),
   ),
 );

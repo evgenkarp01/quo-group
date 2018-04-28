@@ -395,9 +395,9 @@
   ),
   17 => 
   array (
-    'basePath' => 'assets/site/images/clients/2/',
+    'basePath' => 'assets/site/images/clients/32/',
     'basePathRelative' => true,
-    'baseUrl' => 'assets/site/images/clients/2/',
+    'baseUrl' => 'assets/site/images/clients/32/',
     'baseUrlRelative' => true,
     'allowedFileTypes' => '',
     'imageExtensions' => 'jpg,jpeg,png,gif,svg',
@@ -489,9 +489,9 @@
   ),
   19 => 
   array (
-    'basePath' => 'assets/site/images/blog/2/',
+    'basePath' => 'assets/site/images/blog/32/',
     'basePathRelative' => true,
-    'baseUrl' => 'assets/site/images/blog/2/',
+    'baseUrl' => 'assets/site/images/blog/32/',
     'baseUrlRelative' => true,
     'allowedFileTypes' => '',
     'imageExtensions' => 'jpg,jpeg,png,gif,svg',

@@ -207,35 +207,22 @@
 			</div>
 		</section>
 		<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>
+		</div>
+	</div>
+</section>
 	   
 <section id="form_about">
     <div class="container">
@@ -533,35 +520,22 @@
     '[[migxResourceMediaPath? &pathTpl=`assets/site/images/clients/{id}/` &createFolder=`1`]]' => 'assets/site/images/clients/2/',
     '[[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]' => '',
     '[[$keyses]]' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
     '[[$formFooter]]' => '
 <section id="form_about">
     <div class="container">
@@ -630,9 +604,8 @@
 	</div><!-- //CONTAINER -->
 </footer>',
     '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Поиск',
-    '[[migxResourceMediaPath? &pathTpl=`assets/site/images/blog/{id}/` &createFolder=`1`]]' => 'assets/site/images/blog/2/',
     '[[pdoResources?tpl=`sldrDescriptionTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`33`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`8daf63444c3f622c8fdb5b7982dbbaa1`&setTotal=`1`]]' => '<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`inOffCaseTv,imgCaseTv,delayCaseTv,delay2CaseTv,delay3CaseTv,delay4CaseTv,animateCaseTv,animate2CaseTv,animate3CaseTv,animate4CaseTv,title2CaseTv,title3CaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`de1cab04e384585aca7c8f8d25c32d92`&setTotal=`1`]]' => '<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
 	<div class="flex_caption1">
 		<p class="title1 captionDelay7 FromRight">Кейс первый</p>
 		<p class="title2 captionDelay1 FromRight">Кейс первейший</p>
@@ -683,13 +656,78 @@
 	<!-- VIDEO BACKGROUND -->
 	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
 	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay1 FromLeft">кейс 5</p>
+		<p class="title2 captionDelay2 FromTop"></p>
+		<p class="title3 captionDelay3 FromRight"></p>
+		<p class="title4 captionDelay4 FromBottom"></p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-5.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay7 FromRight">кейс 6</p>
+		<p class="title2 captionDelay1 FromRight">Кейс первейший</p>
+		<p class="title3 captionDelay2 FromRight">bbbк</p>
+		<p class="title4 captionDelay1 FromRight">Затестил описание слайда</p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-6.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay7 FromRight">кейс 7</p>
+		<p class="title2 captionDelay1 FromRight">Кейс первейший</p>
+		<p class="title3 captionDelay2 FromRight">bbbк</p>
+		<p class="title4 captionDelay1 FromRight">Затестил описание слайда</p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-7.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay7 FromRight">кейс 8</p>
+		<p class="title2 captionDelay1 FromRight">Кейс первейший</p>
+		<p class="title3 captionDelay2 FromRight">bbbк</p>
+		<p class="title4 captionDelay1 FromRight">Затестил описание слайда</p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-8.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
+</li>
+<li class="slide1" style="background-image:url(/assets/site/images/slider/slide1_bg.jpg)">
+	<div class="flex_caption1">
+		<p class="title1 captionDelay1 FromLeft">кейс 9</p>
+		<p class="title2 captionDelay2 FromTop"></p>
+		<p class="title3 captionDelay3 FromRight"></p>
+		<p class="title4 captionDelay4 FromBottom"></p>
+	</div>
+	<a class="slide_btn FromRight" href="http://quo-group.ru/kejsyi/kejs-9.html" >Подробнее</a>
+	
+	<!-- VIDEO BACKGROUND -->
+	<a id="P2" class="player" data-property="{videoURL:\'tDvBwPzJ7dY\',containment:\'.top_slider .slide3\',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+	<!-- //VIDEO BACKGROUND -->
 </li>',
     '[[pdoResources?tpl=`sldrImgTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`3`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgCaseTv, inOffCaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`c4ebe3140e5eddb6c6315e2996b42fd0`&setTotal=`1`]]' => '<li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="Кейс первейший" /></li>
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgCaseTv, inOffCaseTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffCaseTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`0854003ae8ab589277cf3a248787b5c6`&setTotal=`1`]]' => '<li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="Кейс первейший" /></li>
 <li><img src="/assets/cache_image/assets/site/images/slider/slide1_bg_1920x1080_28b.jpg" alt="" /></li>
 <li><img src="/assets/cache_image/assets/site/images/slider/slide2_bg_1920x1080_28b.jpg" alt="" /></li>',
     '[[pdoResources?tpl=`serviceTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`4`&offset=`0`&depth=`1`&outputSeparator=`
-`&toPlaceholder=``&parents=`7`&includeContent=``&includeTVs=`inOffServiceTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffServiceTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`47e8ec825706eef8ae2c37238d21943e`&setTotal=`1`]]' => '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+`&toPlaceholder=``&parents=`7`&includeContent=``&includeTVs=`inOffServiceTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=`inOffServiceTv==1`&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`7c1e15da469422c3538fe1b1d430a274`&setTotal=`1`]]' => '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
 	<a class="services_item" href="http://quo-group.ru/uslugi/prodvizhenie-sajtov/serm.html" >
 		<p>SERM</p>
 		<span></span>
@@ -714,7 +752,7 @@
 	</a>
 </div>',
     '[[pdoResources?tpl=`workTpl`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`5e7f9019ace935a5ae36194e3a8b6064`&setTotal=`1`]]' => '<div class="item">
+`&toPlaceholder=``&parents=`9`&includeContent=``&includeTVs=`imgWorkTv`&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=``&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <div class="pagination"><ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul></div>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`572f0e3f7d3dc80cb6796ba8479afdaa`&setTotal=`1`]]' => '<div class="item">
     <div class="work_item">
         <div class="work_img">
             <img src="/assets/site/images/works/1.jpg" alt="Кейс первый" />
@@ -765,6 +803,76 @@
         <div class="work_description">
             <div class="work_descr_cont">
                 <a href="http://quo-group.ru/kejsyi/kejs-test.html" >кейс тест</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 5" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-5.html" >кейс 5</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 6" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-6.html" >кейс 6</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 7" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-7.html" >кейс 7</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/1.jpg" alt="кейс 8" />
+            <a class="zoom" href="/assets/site/images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-8.html" >кейс 8</a>
+                <span>24 Апрель, 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="item">
+    <div class="work_item">
+        <div class="work_img">
+            <img src="/assets/site/images/works/7.jpg" alt="кейс 9" />
+            <a class="zoom" href="/assets/site/images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+        </div>
+        <div class="work_description">
+            <div class="work_descr_cont">
+                <a href="http://quo-group.ru/kejsyi/kejs-9.html" >кейс 9</a>
                 <span>24 Апрель, 2018</span>
             </div>
         </div>
@@ -1302,35 +1410,22 @@
           'category' => 6,
           'cache_type' => 0,
           'snippet' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
           'locked' => false,
           'properties' => 
           array (
@@ -1338,35 +1433,22 @@
           'static' => false,
           'static_file' => '',
           'content' => '<section id="projects" class="padbot20">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Кейсы</b> QUO</h2>
-			</div><!-- //CONTAINER -->
-			
-				
-			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
-				<!-- PROJECTS SLIDER -->
-				<div class="owl-demo owl-carousel projects_slider">
-					
-					[[!$work]]
-					
-				</div><!-- //PROJECTS SLIDER -->
+	<div class="container">
+		<h2><b>Кейсы</b> QUO</h2>
+	</div>
+	<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+		<div class="owl-demo owl-carousel projects_slider">
+			[[!$work]]
+		</div>
+	</div>
+	<div class="our_clients">
+		<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+			<div class="row">
+			    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
 			</div>
-			
-			
-			<!-- OUR CLIENTS -->
-			<div class="our_clients">
-				<!-- CONTAINER-->
-				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<!-- ROW -->
-					<div class="row">
-					    [[getImageList? &tvname=`clientsMigxImgTv` &tpl=`clientsTpl`]]
-						
-					</div><!-- //ROW -->
-				</div><!-- CONTAINER -->
-			</div><!-- //OUR CLIENTS -->
-		</section>',
+		</div>
+	</div>
+</section>',
         ),
         'policies' => 
         array (
