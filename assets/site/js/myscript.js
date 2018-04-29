@@ -300,6 +300,49 @@ jQuery(document).ready(function() {
 	jQuery('.map_hide').click(function(){
 		jQuery('#map').removeClass('showed');
 	});
+	
+	
+	
+	//validator
+	
+	jQuery.validator.addMethod(
+                    'regexp',
+                    function(value, element, regexp) {
+                        var re = new RegExp(regexp);
+                        return this.optional(element) || re.test(value);
+                    },
+                    ""
+                );
+                
+                
+        $("#formCont").validate({
+		rules:{
+            phoneFooter:{
+                regexp:"[0-9\-\(\)\s]+",
+                required: true,
+                minlength: 5,
+                maxlength: 17,
+            },
+		},
+		messages:{
+           phoneFooter:{
+				digits: "",
+                minlength: "",
+                maxlength: "",
+            },
+
+		},
+		
+        submitHandler: function(form){
+			$('#formCont').ajaxSubmit({
+				target: '#result', 
+				success: function(){
+					$('button[type="submit"]').slideUp('fast'); 
+				} 
+			}); 
+		}
+	});
+	
 });
 
 
